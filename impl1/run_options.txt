@@ -1,11 +1,13 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L
 #--  Project file C:\Users\Connor\Documents\ECE_271_Project\impl1\run_options.txt
-#--  Written on Sat May 27 13:50:24 2017
+#--  Written on Sat May 27 14:45:56 2017
 
 
 #project files
 add_file -verilog -vlog_std sysv "sources/NES_parallel_to_serial.sv"
+add_file -verilog -vlog_std sysv "sources/Big_boy.sv"
+add_file -verilog -vlog_std sysv "sources/Decode_SNES.sv"
 
 
 

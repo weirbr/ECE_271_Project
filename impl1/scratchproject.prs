@@ -4,6 +4,8 @@
 
 #project files
 add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/NES_parallel_to_serial.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Big_boy.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Decode_SNES.sv"
 
 
 

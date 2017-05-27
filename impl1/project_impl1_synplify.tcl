@@ -45,6 +45,8 @@ set_option -resolve_multiple_driver 0
 #-- add_file options
 set_option -include_path {C:/Users/Connor/Documents/ECE_271_Project}
 add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/NES_parallel_to_serial.sv}
+add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Big_boy.sv}
+add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Decode_SNES.sv}
 
 
 #-- set result format/file last

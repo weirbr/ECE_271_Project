@@ -1,4 +1,4 @@
-module NES_parallel_to_serial(
+module NES_para_to_ser(
 					input logic clk,
 					input logic latch,
 					output logic data,

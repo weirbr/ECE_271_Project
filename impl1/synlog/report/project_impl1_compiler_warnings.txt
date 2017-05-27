@@ -1,3 +1,4 @@
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":19:1:19:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL247 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":2:19:2:30|Input port bit 7 of button_board[7:0] is unused
 

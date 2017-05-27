@@ -1,10 +1,10 @@
-(edif NES_parallel_to_serial
+(edif top
   (edifVersion 2 0 0)
   (edifLevel 0)
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2017 5 27 13 50 27)
+      (timeStamp 2017 5 27 14 45 59)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09L, mapper maplat, Build 1612R"))
      )
@@ -45,78 +45,71 @@
   (library work
     (edifLevel 0)
     (technology (numberDefinition ))
-    (cell NES_parallel_to_serial (cellType GENERIC)
+    (cell top (cellType GENERIC)
        (view verilog (viewType NETLIST)
          (interface
-           (port clk (direction INPUT))
-           (port latch (direction INPUT))
-           (port data (direction OUTPUT))
-           (port AIn (direction INPUT))
-           (port BIn (direction INPUT))
-           (port sel (direction INPUT))
-           (port start (direction INPUT))
-           (port up (direction INPUT))
-           (port down (direction INPUT))
-           (port left (direction INPUT))
-           (port right (direction INPUT))
-           (port reset (direction INPUT))
+           (port (array (rename button_board "button_board[7:0]") 8) (direction INPUT))
+           (port NES_Data (direction OUTPUT))
+           (port NES_Clock (direction INPUT))
+           (port NES_Latch (direction INPUT))
+           (port reset_in (direction INPUT))
          )
          (contents
           (instance GND_0 (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
           (instance VCC_0 (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
           (instance GSR_INST (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
           )
-          (instance data_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance NES_Data_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
           (net GND (joined
            (portRef Z (instanceRef GND_0))
-           (portRef I (instanceRef data_pad))
+           (portRef I (instanceRef NES_Data_pad))
           ))
           (net VCC (joined
            (portRef Z (instanceRef VCC_0))
            (portRef GSR (instanceRef GSR_INST))
           ))
-          (net clk (joined
-           (portRef clk)
+          (net (rename button_board_0 "button_board[0]") (joined
+           (portRef (member button_board 7))
           ))
-          (net latch (joined
-           (portRef latch)
+          (net (rename button_board_1 "button_board[1]") (joined
+           (portRef (member button_board 6))
           ))
-          (net data (joined
-           (portRef O (instanceRef data_pad))
-           (portRef data)
+          (net (rename button_board_2 "button_board[2]") (joined
+           (portRef (member button_board 5))
           ))
-          (net AIn (joined
-           (portRef AIn)
+          (net (rename button_board_3 "button_board[3]") (joined
+           (portRef (member button_board 4))
           ))
-          (net BIn (joined
-           (portRef BIn)
+          (net (rename button_board_4 "button_board[4]") (joined
+           (portRef (member button_board 3))
           ))
-          (net sel (joined
-           (portRef sel)
+          (net (rename button_board_5 "button_board[5]") (joined
+           (portRef (member button_board 2))
           ))
-          (net start (joined
-           (portRef start)
+          (net (rename button_board_6 "button_board[6]") (joined
+           (portRef (member button_board 1))
           ))
-          (net up (joined
-           (portRef up)
+          (net (rename button_board_7 "button_board[7]") (joined
+           (portRef (member button_board 0))
           ))
-          (net down (joined
-           (portRef down)
+          (net NES_Data (joined
+           (portRef O (instanceRef NES_Data_pad))
+           (portRef NES_Data)
           ))
-          (net left (joined
-           (portRef left)
+          (net NES_Clock (joined
+           (portRef NES_Clock)
           ))
-          (net right (joined
-           (portRef right)
+          (net NES_Latch (joined
+           (portRef NES_Latch)
           ))
-          (net reset (joined
-           (portRef reset)
+          (net reset_in (joined
+           (portRef reset_in)
           ))
          )
-        (property orig_inst_of (string "NES_parallel_to_serial"))
+        (property orig_inst_of (string "top"))
        )
     )
   )
-  (design NES_parallel_to_serial (cellRef NES_parallel_to_serial (libraryRef work))
+  (design top (cellRef top (libraryRef work))
 	(property PART (string "lcmxo2_7000he-5") ))
 )

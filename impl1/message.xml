@@ -5,78 +5,78 @@
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>clk</Dynamic>
-            <Navigation>clk</Navigation>
+            <Dynamic>button_board[0]</Dynamic>
+            <Navigation>button_board[0]</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>latch</Dynamic>
-            <Navigation>latch</Navigation>
+            <Dynamic>button_board[1]</Dynamic>
+            <Navigation>button_board[1]</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>AIn</Dynamic>
-            <Navigation>AIn</Navigation>
+            <Dynamic>button_board[2]</Dynamic>
+            <Navigation>button_board[2]</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>BIn</Dynamic>
-            <Navigation>BIn</Navigation>
+            <Dynamic>button_board[3]</Dynamic>
+            <Navigation>button_board[3]</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>sel</Dynamic>
-            <Navigation>sel</Navigation>
+            <Dynamic>button_board[4]</Dynamic>
+            <Navigation>button_board[4]</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>start</Dynamic>
-            <Navigation>start</Navigation>
+            <Dynamic>button_board[5]</Dynamic>
+            <Navigation>button_board[5]</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>up</Dynamic>
-            <Navigation>up</Navigation>
+            <Dynamic>button_board[6]</Dynamic>
+            <Navigation>button_board[6]</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>down</Dynamic>
-            <Navigation>down</Navigation>
+            <Dynamic>button_board[7]</Dynamic>
+            <Navigation>button_board[7]</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>left</Dynamic>
-            <Navigation>left</Navigation>
+            <Dynamic>NES_Clock</Dynamic>
+            <Navigation>NES_Clock</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>right</Dynamic>
-            <Navigation>right</Navigation>
+            <Dynamic>NES_Latch</Dynamic>
+            <Navigation>NES_Latch</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>reset</Dynamic>
-            <Navigation>reset</Navigation>
+            <Dynamic>reset_in</Dynamic>
+            <Navigation>reset_in</Navigation>
         </Message>
         <Message>
             <ID>1163101</ID>
@@ -112,6 +112,18 @@
             <Navigation>19</Navigation>
             <Navigation>9</Navigation>
             <Navigation>Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv&quot;:2:19:2:30|Input port bit 7 of button_board[7:0] is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>Input port bit 7 of button_board[7:0] is unused</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

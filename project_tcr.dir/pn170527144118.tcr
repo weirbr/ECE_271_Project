@@ -1,0 +1,25 @@
+#Start recording tcl command: 5/27/2017 13:06:18
+#Project Location: C:/Users/Connor/Documents/ECE_271_Project; Project name: project
+prj_project new -name "project" -impl "impl1" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+pgr_project close
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/NES_parallel_to_serial.sv"
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Big_boy.sv"
+launch_synplify_prj impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+launch_synplify_prj impl1
+prj_src exclude "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Big_boy.sv"
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+launch_synplify_prj impl1
+prj_src enable "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Big_boy.sv"
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Decode_SNES.sv"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+#Stop recording: 5/27/2017 14:41:18

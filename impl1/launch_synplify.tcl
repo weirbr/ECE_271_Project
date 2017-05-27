@@ -1,6 +1,6 @@
 #-- Lattice Semiconductor Corporation Ltd.
 #-- Synplify OEM project file C:/Users/Connor/Documents/ECE_271_Project/impl1/launch_synplify.tcl
-#-- Written on Sat May 27 13:50:16 2017
+#-- Written on Sat May 27 14:45:52 2017
 
 project -close
 set filename "C:/Users/Connor/Documents/ECE_271_Project/impl1/impl1_syn.prj"
@@ -46,6 +46,8 @@ if {$create_new == 1} {
 #-- add_file options
 set_option -include_path "C:/Users/Connor/Documents/ECE_271_Project"
 add_file -verilog "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/NES_parallel_to_serial.sv"
+add_file -verilog "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Big_boy.sv"
+add_file -verilog "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Decode_SNES.sv"
 #-- top module name
 set_option -top_module {}
 project -result_file {C:/Users/Connor/Documents/ECE_271_Project/impl1/impl1.edi}
