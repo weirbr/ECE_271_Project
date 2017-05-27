@@ -1,0 +1,18 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\synwork\\impl1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|C:\\Users\\Connor\\Documents\\ECE_271_Project|-I|C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\|-I|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib|-sysv|-devicelib|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.v|-devicelib|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-fsysv"
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_ver.exe":1481017140
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.v":1481014424
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v":1481014424
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\hypermods.v":1481016754
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\umr_capim.v":1481016754
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1481016754
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1481016754
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\NES_parallel_to_serial.sv":1495917619
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work NES_parallel_to_serial 0

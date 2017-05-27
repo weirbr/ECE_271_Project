@@ -1,0 +1,122 @@
+(edif NES_parallel_to_serial
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2017 5 27 13 50 27)
+      (author "Synopsys, Inc.")
+      (program "Synplify Pro" (version "L-2016.09L, mapper maplat, Build 1612R"))
+     )
+   )
+  (library LUCENT
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell OB (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port I (direction INPUT))
+           (port O (direction OUTPUT))
+         )
+       )
+    )
+    (cell GSR (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port GSR (direction INPUT))
+         )
+       )
+    )
+    (cell VHI (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+    (cell VLO (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell NES_parallel_to_serial (cellType GENERIC)
+       (view verilog (viewType NETLIST)
+         (interface
+           (port clk (direction INPUT))
+           (port latch (direction INPUT))
+           (port data (direction OUTPUT))
+           (port AIn (direction INPUT))
+           (port BIn (direction INPUT))
+           (port sel (direction INPUT))
+           (port start (direction INPUT))
+           (port up (direction INPUT))
+           (port down (direction INPUT))
+           (port left (direction INPUT))
+           (port right (direction INPUT))
+           (port reset (direction INPUT))
+         )
+         (contents
+          (instance GND_0 (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
+          (instance VCC_0 (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
+          (instance GSR_INST (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
+          )
+          (instance data_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (net GND (joined
+           (portRef Z (instanceRef GND_0))
+           (portRef I (instanceRef data_pad))
+          ))
+          (net VCC (joined
+           (portRef Z (instanceRef VCC_0))
+           (portRef GSR (instanceRef GSR_INST))
+          ))
+          (net clk (joined
+           (portRef clk)
+          ))
+          (net latch (joined
+           (portRef latch)
+          ))
+          (net data (joined
+           (portRef O (instanceRef data_pad))
+           (portRef data)
+          ))
+          (net AIn (joined
+           (portRef AIn)
+          ))
+          (net BIn (joined
+           (portRef BIn)
+          ))
+          (net sel (joined
+           (portRef sel)
+          ))
+          (net start (joined
+           (portRef start)
+          ))
+          (net up (joined
+           (portRef up)
+          ))
+          (net down (joined
+           (portRef down)
+          ))
+          (net left (joined
+           (portRef left)
+          ))
+          (net right (joined
+           (portRef right)
+          ))
+          (net reset (joined
+           (portRef reset)
+          ))
+         )
+        (property orig_inst_of (string "NES_parallel_to_serial"))
+       )
+    )
+  )
+  (design NES_parallel_to_serial (cellRef NES_parallel_to_serial (libraryRef work))
+	(property PART (string "lcmxo2_7000he-5") ))
+)
