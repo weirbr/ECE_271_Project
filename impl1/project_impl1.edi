@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2017 5 27 14 45 59)
+      (timeStamp 2017 5 28 14 22 8)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09L, mapper maplat, Build 1612R"))
      )
@@ -52,6 +52,9 @@
            (port NES_Data (direction OUTPUT))
            (port NES_Clock (direction INPUT))
            (port NES_Latch (direction INPUT))
+           (port SNES_Data (direction OUTPUT))
+           (port SNES_Clock (direction INPUT))
+           (port SNES_Latch (direction INPUT))
            (port reset_in (direction INPUT))
          )
          (contents
@@ -59,10 +62,12 @@
           (instance VCC_0 (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
           (instance GSR_INST (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
           )
+          (instance SNES_Data_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
           (instance NES_Data_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
           (net GND (joined
            (portRef Z (instanceRef GND_0))
            (portRef I (instanceRef NES_Data_pad))
+           (portRef I (instanceRef SNES_Data_pad))
           ))
           (net VCC (joined
            (portRef Z (instanceRef VCC_0))
@@ -101,6 +106,16 @@
           ))
           (net NES_Latch (joined
            (portRef NES_Latch)
+          ))
+          (net SNES_Data (joined
+           (portRef O (instanceRef SNES_Data_pad))
+           (portRef SNES_Data)
+          ))
+          (net SNES_Clock (joined
+           (portRef SNES_Clock)
+          ))
+          (net SNES_Latch (joined
+           (portRef SNES_Latch)
           ))
           (net reset_in (joined
            (portRef reset_in)

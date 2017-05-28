@@ -1,4 +1,5 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
-@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":27:12:27:31|Removing instance decoder_button_board (in view: work.top(verilog)) of type view:work.decoder3_8(verilog) because it does not drive other instances.
-@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":10:17:10:20|Removing instance test (in view: work.top(verilog)) of type view:work.NES_para_to_ser(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":16:17:16:24|Removing instance NES_sort (in view: work.top(verilog)) of type view:work.NES_para_to_ser(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":33:18:33:26|Removing instance SNES_sort (in view: work.top(verilog)) of type view:work.SNES_para_to_ser(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":55:12:55:31|Removing instance decoder_button_board (in view: work.top(verilog)) of type view:work.decoder3_8(verilog) because it does not drive other instances.

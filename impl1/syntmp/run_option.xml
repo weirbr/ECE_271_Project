@@ -3,12 +3,12 @@
   Synopsys, Inc.
   Version L-2016.09L
   Project file C:\Users\Connor\Documents\ECE_271_Project\impl1\syntmp\run_option.xml
-  Written on Sat May 27 14:45:56 2017
+  Written on Sun May 28 14:22:05 2017
 
 
 --> 
 <project_attribute_list name="Project Settings"> 
-     <option name="project_name" display_name="Project Name">impl1_syn</option>
+     <option name="project_name" display_name="Project Name">proj_1</option>
      <option name="impl_name" display_name="Implementation Name">impl1</option>
      <option name="top_module" display_name="Top Module"></option>
      <option name="pipe" display_name="Pipelining">1</option>

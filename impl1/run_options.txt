@@ -1,13 +1,14 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L
 #--  Project file C:\Users\Connor\Documents\ECE_271_Project\impl1\run_options.txt
-#--  Written on Sat May 27 14:45:56 2017
+#--  Written on Sun May 28 14:22:05 2017
 
 
 #project files
-add_file -verilog -vlog_std sysv "sources/NES_parallel_to_serial.sv"
-add_file -verilog -vlog_std sysv "sources/Big_boy.sv"
-add_file -verilog -vlog_std sysv "sources/Decode_SNES.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/NES_parallel_to_serial.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Decode_SNES.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Shift_register_SNEs.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Big_boy.sv"
 
 
 
@@ -17,7 +18,7 @@ impl -add impl1 -type fpga
 #
 #implementation attributes
 
-set_option -vlog_std sysv
+set_option -vlog_std v2001
 set_option -project_relative_includes 1
 set_option -include_path {C:/Users/Connor/Documents/ECE_271_Project}
 
@@ -34,7 +35,7 @@ set_option -part_companion ""
 set_option -distributed_compile 0
 
 # mapper_without_write_options
-set_option -frequency auto
+set_option -frequency 1
 set_option -srs_instrumentation 1
 
 # mapper_options
@@ -46,7 +47,7 @@ set_option -maxfan 1000
 set_option -disable_io_insertion 0
 set_option -retiming 0
 set_option -pipe 1
-set_option -forcegsr no
+set_option -forcegsr false
 set_option -fix_gated_and_generated_clocks 1
 set_option -rw_check_on_ram 1
 set_option -update_models_cp 0
@@ -71,5 +72,8 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "./impl1.edi"
+project -result_file "./project_impl1.edi"
+
+#set log file 
+set_option log_file "C:/Users/Connor/Documents/ECE_271_Project/impl1/project_impl1.srf" 
 impl -active "impl1"

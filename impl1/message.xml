@@ -75,13 +75,27 @@
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
+            <Dynamic>SNES_Clock</Dynamic>
+            <Navigation>SNES_Clock</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>SNES_Latch</Dynamic>
+            <Navigation>SNES_Latch</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
             <Dynamic>reset_in</Dynamic>
             <Navigation>reset_in</Navigation>
         </Message>
         <Message>
             <ID>1163101</ID>
             <Severity>Warning</Severity>
-            <Dynamic>11</Dynamic>
+            <Dynamic>13</Dynamic>
         </Message>
     </Task>
     <Task name="Synplify_Synthesis">
@@ -116,13 +130,37 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL247 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv&quot;:2:19:2:30|Input port bit 7 of button_board[7:0] is unused</Dynamic>
+            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv&quot;:40:1:40:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv&quot;:22:1:22:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv&quot;:2:13:2:24|Input port bit 7 of button_board[7:0] is unused</Dynamic>
             <Navigation>CL247</Navigation>
             <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv</Navigation>
             <Navigation>2</Navigation>
-            <Navigation>19</Navigation>
+            <Navigation>13</Navigation>
             <Navigation>2</Navigation>
-            <Navigation>30</Navigation>
+            <Navigation>24</Navigation>
             <Navigation>Input port bit 7 of button_board[7:0] is unused</Navigation>
         </Message>
     </Task>

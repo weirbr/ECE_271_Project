@@ -41,11 +41,13 @@ Running DRC...
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="button_board[7]" arg2="button_board[7]"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="NES_Clock" arg2="NES_Clock"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="NES_Latch" arg2="NES_Latch"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="SNES_Clock" arg2="SNES_Clock"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="SNES_Latch" arg2="SNES_Latch"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="reset_in" arg2="reset_in"  />
-    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="11"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="13"  />
 
 Design Results:
-      4 blocks expanded
+      5 blocks expanded
 Complete the first expansion.
 Writing 'project_impl1.ngd' ...
 Total CPU Time: 0 secs  

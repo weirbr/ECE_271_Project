@@ -2,8 +2,25 @@
 @N|Running in 64-bit mode
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":1:7:1:21|Synthesizing module NES_para_to_ser in library work.
 @N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Register bit data is always 0.
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":1:7:1:22|Synthesizing module SNES_para_to_ser in library work.
+@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":40:1:40:9|Register bit data is always 0.
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv":1:7:1:16|Synthesizing module decoder3_8 in library work.
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":1:7:1:9|Synthesizing module top in library work.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":2:17:2:19|Input clk is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":3:17:3:21|Input latch is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":6:17:6:19|Input AIn is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":7:17:7:19|Input BIn is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":8:17:8:19|Input sel is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":9:17:9:21|Input start is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":10:17:10:18|Input up is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":11:17:11:20|Input down is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":12:17:12:20|Input left is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":13:17:13:21|Input right is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":14:17:14:17|Input L is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":15:17:15:17|Input R is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":16:17:16:17|Input X is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":17:17:17:17|Input Y is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":18:17:18:21|Input reset is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":2:17:2:19|Input clk is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":3:17:3:21|Input latch is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":6:17:6:19|Input AIn is unused.

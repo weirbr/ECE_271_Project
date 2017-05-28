@@ -6,10 +6,13 @@
         <Source name="impl1/sources/NES_parallel_to_serial.sv" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
-        <Source name="impl1/sources/Big_boy.sv" type="Verilog" type_short="Verilog">
+        <Source name="impl1/sources/Decode_SNES.sv" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
-        <Source name="impl1/sources/Decode_SNES.sv" type="Verilog" type_short="Verilog">
+        <Source name="impl1/sources/Shift_register_SNEs.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Big_boy.sv" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
         <Source name="project.lpf" type="Logic Preference" type_short="LPF">

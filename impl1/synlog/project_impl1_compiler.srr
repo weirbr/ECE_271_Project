@@ -13,21 +13,43 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv" (library work)
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv" (library work)
+@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv" (library work)
+@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv" (library work)
 Verilog syntax check successful!
+File C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv changed - recompiling
 Selecting top level module top
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":1:7:1:21|Synthesizing module NES_para_to_ser in library work.
 
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":19:1:19:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
 @N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Register bit data is always 0.
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":1:7:1:22|Synthesizing module SNES_para_to_ser in library work.
+
+@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":40:1:40:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":22:1:22:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.
+@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":40:1:40:9|Register bit data is always 0.
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv":1:7:1:16|Synthesizing module decoder3_8 in library work.
 
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":1:7:1:9|Synthesizing module top in library work.
 
-@W: CL247 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":2:19:2:30|Input port bit 7 of button_board[7:0] is unused
+@W: CL247 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":2:13:2:24|Input port bit 7 of button_board[7:0] is unused
 
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":2:17:2:19|Input clk is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":3:17:3:21|Input latch is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":6:17:6:19|Input AIn is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":7:17:7:19|Input BIn is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":8:17:8:19|Input sel is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":9:17:9:21|Input start is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":10:17:10:18|Input up is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":11:17:11:20|Input down is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":12:17:12:20|Input left is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":13:17:13:21|Input right is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":14:17:14:17|Input L is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":15:17:15:17|Input R is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":16:17:16:17|Input X is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":17:17:17:17|Input Y is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":18:17:18:21|Input reset is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":2:17:2:19|Input clk is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":3:17:3:21|Input latch is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":6:17:6:19|Input AIn is unused.
@@ -45,7 +67,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat May 27 14:45:40 2017
+# Sun May 28 14:22:05 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -59,7 +81,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat May 27 14:45:40 2017
+# Sun May 28 14:22:05 2017
 
 ###########################################################]
 @END
@@ -69,6 +91,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat May 27 14:45:40 2017
+# Sun May 28 14:22:05 2017
 
 ###########################################################]
