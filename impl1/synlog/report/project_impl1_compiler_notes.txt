@@ -5,7 +5,12 @@
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":1:7:1:22|Synthesizing module SNES_para_to_ser in library work.
 @N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":40:1:40:9|Register bit data is always 0.
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv":1:7:1:16|Synthesizing module decoder3_8 in library work.
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":1:7:1:27|Synthesizing module button_board_reciever in library work.
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":1:7:1:21|Synthesizing module remote_reciever in library work.
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":1:7:1:18|Synthesizing module N64_reciever in library work.
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":1:7:1:9|Synthesizing module top in library work.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":3:13:3:15|Input N64 is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":4:13:4:18|Input remote is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":2:17:2:19|Input clk is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":3:17:3:21|Input latch is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":6:17:6:19|Input AIn is unused.

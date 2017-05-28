@@ -48,6 +48,9 @@ add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/NES_p
 add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Decode_SNES.sv}
 add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Shift_register_SNEs.sv}
 add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Big_boy.sv}
+add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Button_board_reciever.sv}
+add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_reciever.sv}
+add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Remote_reciever.sv}
 
 
 #-- set result format/file last

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="project" device="LCMXO2-7000HE-5TG144C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options/>
+        <Source name="impl1/sources/NES_parallel_to_serial.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Decode_SNES.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Shift_register_SNEs.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Big_boy.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Controller_SM.sv" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Button_board_reciever.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/N64_reciever.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Remote_reciever.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="project.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="project1.sty"/>
+</BaliProject>

@@ -1,5 +1,7 @@
 module top (
 	input logic [7:0] button_board,
+	input logic N64,
+	input logic remote,
 	
 	output logic NES_Data,
 	input logic NES_Clock,
@@ -11,21 +13,24 @@ module top (
 	
 	input logic reset_in);
 	
-	logic [7:0] BTS;
+	
+	logic [11:0] button_board_wires;
+	logic [11:0] N64_wires;
+	logic [11:0] remote_wires;
 	
 	NES_para_to_ser NES_sort (
 						.clk(NES_Clock),
 						.latch(NES_Latch),
 						.data(NES_Data),
 					
-						.AIn(BTS[2]),
-						.BIn(BTS[3]),
-						.sel(BTS[1]),
-						.start(BTS[0]),
-						.up(button_board[0]),
-						.down(button_board[1]),
-						.left(button_board[2]),
-						.right(button_board[3]),
+						.AIn(button_board_wires[6]),
+						.BIn(button_board_wires[7]),
+						.sel(button_board_wires[5]),
+						.start(button_board_wires[4]),
+						.up(button_board_wires[0]),
+						.down(button_board_wires[1]),
+						.left(button_board_wires[2]),
+						.right(button_board_wires[3]),
 					
 						.reset(reset_in));
 						
@@ -35,26 +40,32 @@ module top (
 						.latch(SNES_Latch),
 						.data(SNES_Data),
 					
-						.AIn(BTS[2]),
-						.BIn(BTS[3]),
-						.sel(BTS[1]),
-						.start(BTS[0]),
-						.up(button_board[0]),
-						.down(button_board[1]),
-						.left(button_board[2]),
-						.right(button_board[3]),
-						.L(BTS[6]),
-						.R(BTS[7]), 
-						.X(BTS[4]),
-						.Y(BTS[5]),
+						.AIn(button_board_wires[6]),
+						.BIn(button_board_wires[7]),
+						.sel(button_board_wires[5]),
+						.start(button_board_wires[4]),
+						.up(button_board_wires[0]),
+						.down(button_board_wires[1]),
+						.left(button_board_wires[2]),
+						.right(button_board_wires[3]),
+						.L(button_board_wires[10]),
+						.R(button_board_wires[11]), 
+						.X(button_board_wires[8]),
+						.Y(button_board_wires[9]),
 						
 						.reset(reset_in));
 	
 	
 
-	decoder3_8 decoder_button_board(
-						.a(button_board[6:4]),
-						.y(BTS));
+	button_board_reciever b_board_rec (
+						.b_out(button_board_wires),
+						.b_in(button_board));
+	remote_reciever r_rec (
+						.remote_in(remote),
+						.remote_out(remote_wires));
+	N64_reciever N64_rec (
+						.N64_in(N64),
+						.N64_out(N64_wires));
 						
 	
 	

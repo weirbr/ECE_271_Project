@@ -1,3 +1,2 @@
-@E: CS187 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":39:11:39:17|Expecting )
-@E: CS187 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":60:0:60:8|Expecting endmodule
+@E: CG672 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":1:0:1:11|Expecting package name
 

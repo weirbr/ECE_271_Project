@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L
 #--  Project file C:\Users\Connor\Documents\ECE_271_Project\impl1\run_options.txt
-#--  Written on Sun May 28 14:22:05 2017
+#--  Written on Sun May 28 16:33:53 2017
 
 
 #project files
@@ -9,6 +9,9 @@ add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl
 add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Decode_SNES.sv"
 add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Shift_register_SNEs.sv"
 add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Big_boy.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Button_board_reciever.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_reciever.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Remote_reciever.sv"
 
 
 

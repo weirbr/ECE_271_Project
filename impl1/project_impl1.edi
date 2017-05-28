@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2017 5 28 14 22 8)
+      (timeStamp 2017 5 28 16 33 56)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09L, mapper maplat, Build 1612R"))
      )
@@ -49,6 +49,8 @@
        (view verilog (viewType NETLIST)
          (interface
            (port (array (rename button_board "button_board[7:0]") 8) (direction INPUT))
+           (port N64 (direction INPUT))
+           (port remote (direction INPUT))
            (port NES_Data (direction OUTPUT))
            (port NES_Clock (direction INPUT))
            (port NES_Latch (direction INPUT))
@@ -96,6 +98,12 @@
           ))
           (net (rename button_board_7 "button_board[7]") (joined
            (portRef (member button_board 0))
+          ))
+          (net N64 (joined
+           (portRef N64)
+          ))
+          (net remote (joined
+           (portRef remote)
           ))
           (net NES_Data (joined
            (portRef O (instanceRef NES_Data_pad))
