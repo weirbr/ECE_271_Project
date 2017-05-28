@@ -20,7 +20,7 @@ module SNES_para_to_ser(
 	logic [11:0] data_q;
 		
 	always_ff @ (posedge latch, negedge reset) begin
-		if (!reset) data_q = 0;
+		if (!reset) data_q = 255;
 		else begin
 			data_q[0] = BIn;
 			data_q[1] = Y;

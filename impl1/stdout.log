@@ -74,3 +74,5 @@ Return Code: 0
 Run Time:00h:00m:02s
 Complete: Map on impl1_syn|impl1
 Complete: Logic Synthesis on impl1_syn|impl1
+Note: Opening local project RTL file 'C:\Users\Connor\Documents\ECE_271_Project\impl1\impl1.srs'
+exit status=0
