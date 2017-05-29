@@ -1,5 +1,6 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":1:7:1:19|Synthesizing module controller_SM in library work.
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":1:7:1:21|Synthesizing module NES_para_to_ser in library work.
 @N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Register bit data is always 0.
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":1:7:1:22|Synthesizing module SNES_para_to_ser in library work.
@@ -9,8 +10,6 @@
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":1:7:1:21|Synthesizing module remote_reciever in library work.
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":1:7:1:18|Synthesizing module N64_reciever in library work.
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":1:7:1:9|Synthesizing module top in library work.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":3:13:3:15|Input N64 is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":4:13:4:18|Input remote is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":2:17:2:19|Input clk is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":3:17:3:21|Input latch is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":6:17:6:19|Input AIn is unused.
@@ -37,6 +36,7 @@
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":12:17:12:20|Input left is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":13:17:13:21|Input right is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":15:17:15:21|Input reset is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":13:14:13:21|Input reset_in is unused.
 @N|Running in 64-bit mode
 @N: NF107 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":1:7:1:9|Selected library: work cell: top view verilog as top level
 @N: NF107 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":1:7:1:9|Selected library: work cell: top view verilog as top level

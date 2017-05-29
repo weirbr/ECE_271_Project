@@ -1,3 +1,15 @@
+@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal SNES1[11:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal SNES0[11:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal NES1[11:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal NES0[11:0]; possible missing assignment in an if or case statement.
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":19:1:19:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":40:1:40:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.
@@ -15,8 +27,6 @@
 @W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 11 of b_out
 @W: CG146 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":1:7:1:21|Creating black box for empty module remote_reciever
 @W: CG146 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":1:7:1:18|Creating black box for empty module N64_reciever
-@W: CL168 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":66:14:66:20|Removing instance N64_rec because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":63:17:63:21|Removing instance r_rec because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL247 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":3:20:3:23|Input port bit 7 of b_in[7:0] is unused
 @W: CL246 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":3:20:3:23|Input port bits 3 to 0 of b_in[7:0] are unused. Assign logic for all port bits or change the input port size.
 @W: CL157 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|*Output b_out has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.

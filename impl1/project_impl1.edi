@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2017 5 28 16 33 56)
+      (timeStamp 2017 5 28 17 6 55)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09L, mapper maplat, Build 1612R"))
      )
@@ -57,6 +57,7 @@
            (port SNES_Data (direction OUTPUT))
            (port SNES_Clock (direction INPUT))
            (port SNES_Latch (direction INPUT))
+           (port (array (rename game_select "game_select[3:0]") 4) (direction INPUT))
            (port reset_in (direction INPUT))
          )
          (contents
@@ -124,6 +125,18 @@
           ))
           (net SNES_Latch (joined
            (portRef SNES_Latch)
+          ))
+          (net (rename game_select_0 "game_select[0]") (joined
+           (portRef (member game_select 3))
+          ))
+          (net (rename game_select_1 "game_select[1]") (joined
+           (portRef (member game_select 2))
+          ))
+          (net (rename game_select_2 "game_select[2]") (joined
+           (portRef (member game_select 1))
+          ))
+          (net (rename game_select_3 "game_select[3]") (joined
+           (portRef (member game_select 0))
           ))
           (net reset_in (joined
            (portRef reset_in)

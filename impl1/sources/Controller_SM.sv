@@ -1,29 +1,17 @@
 module controller_SM (
-		input logic [7:0] b_board_in,
-		input logic [7:0] N64_in,
-		input logic [7:0] remote_in,
+		input logic [11:0] b_board_in,
+		input logic [11:0] N64_in,
+		input logic [11:0] remote_in,
 		
-		output logic [7:0] b_board_out_NES1,
-		output logic [7:0] b_board_out_NES0,
-		output logic [7:0] b_board_out_SNES1,
-		output logic [7:0] b_board_out_SNES0,
-		
-		output logic [7:0] N64_out_NES1,
-		output logic [7:0] N64_out_NES0,
-		output logic [7:0] N64_out_SNES1,
-		output logic [7:0] N64_out_SNES0,
+		output logic [11:0] NES1,
+		output logic [11:0] NES0,
+		output logic [11:0] SNES1,
+		output logic [11:0] SNES0,
 
-		output logic [7:0] remote_out_NES1,
-		output logic [7:0] remote_out_NES0,
-		output logic [7:0] remote_out_SNES1,
-		output logic [7:0] remote_out_SNES0,
-
-		
 		input logic [3:0] select_in,
 		
 		input logic reset_in);
 		
-		logic [3:0] select_q;
 		
 		parameter off = 8'b11111111;
 		
@@ -43,196 +31,76 @@ module controller_SM (
 		always_comb begin			
 			case(select_in)
 				S0: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = N64;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = remote_in;
-					remote_out_NES0 = off;
-					remote_out_SNES1 = off;
-					remote_out_SNES0 = off;
+						NES1 = remote_in;
+						NES0 = N64_in;
+						SNES1 = off;
+						SNES0 = off;
 					end
 				S1: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = off;
-					remote_out_NES0 = remote_in;
-					remote_out_SNES1 = off;
-					remote_out_SNES0 = off;
+						NES1 = N64_in;
+						NES0 = remote_in;
+						SNES1 = off;
+						SNES0 = off;
 					end
 				S2: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = off;
-					remote_out_NES0 = off;
-					remote_out_SNES1 = remote_in;
-					remote_out_SNES0 = off;
+						NES1 = off;
+						NES0 = off;
+						SNES1 = remote_in;
+						SNES0 = N64_in;
 					end
 				S3: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = off;
-					remote_out_NES0 = off;
-					remote_out_SNES1 = off;
-					remote_out_SNES0 = remote_in;
+						NES1 = off;
+						NES0 = off;
+						SNES1 = N64_in;
+						SNES0 = remote_in;
 					end
 				S4: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = remote_in;
-					remote_out_NES0 = off;
-					remote_out_SNES1 = off;
-					remote_out_SNES0 = off;
+						NES1 = remote_in;
+						NES0 = b_board_in;
+						SNES1 = off;
+						SNES0 = off;
 					end
 				S5: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = off;
-					remote_out_NES0 = remote_in;
-					remote_out_SNES1 = off;
-					remote_out_SNES0 = off;
+						NES1 = b_board_in;
+						NES0 = remote_in;
+						SNES1 = off;
+						SNES0 = off;
 					end
 				S6: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = off;
-					remote_out_NES0 = off;
-					remote_out_SNES1 = remote_in;
-					remote_out_SNES0 = off;
+						NES1 = off;
+						NES0 = off;
+						SNES1 = remote_in;
+						SNES0 = b_board_in;
 					end
 				S7: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = off;
-					remote_out_NES0 = off;
-					remote_out_SNES1 = off;
-					remote_out_SNES0 = remote_in;
+						NES1 = off;
+						NES0 = off;
+						SNES1 = b_board_in;
+						SNES0 = remote_in;
 					end
 				S8: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = off;
-					remote_out_NES0 = off;
-					remote_out_SNES1 = off;
-					remote_out_SNES0 = off;
+						NES1 = N64_in;
+						NES0 = b_board_in;
+						SNES1 = off;
+						SNES0 = off;
 					end
 				S9: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = off;
-					remote_out_NES0 = off;
-					remote_out_SNES1 = off;
-					remote_out_SNES0 = off;
+						NES1 = b_board_in;
+						NES0 = N64_in;
+						SNES1 = off;
+						SNES0 = off;
 					end
 				S10: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = off;
-					remote_out_NES0 = off;
-					remote_out_SNES1 = off;
-					remote_out_SNES0 = off;
+						NES1 = off;
+						NES0 = off;
+						SNES1 = N64_in;
+						SNES0 = b_board_in;
 					end
 				S11: begin
-					b_board_out_NES1 = off; 
-					b_board_out_NES0 = off;
-					b_board_out_SNES1 = off;
-					b_board_out_SNES0 = off;
-				
-					N64_out_NES1 = off;
-					N64_out_NES0 = off;
-					N64_out_SNES1 = off;
-					N64_out_SNES0 = off;
-
-					remote_out_NES1 = off;
-					remote_out_NES0 = off;
-					remote_out_SNES1 = off;
-					remote_out_SNES0 = off;
+						NES1 = off;
+						NES0 = off;
+						SNES1 = b_board_in;
+						SNES0 = N64_in;
 					end
 				endcase
 			end

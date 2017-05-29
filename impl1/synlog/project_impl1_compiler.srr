@@ -16,14 +16,26 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv" (library work)
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv" (library work)
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv" (library work)
+@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv" (library work)
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv" (library work)
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv" (library work)
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv" (library work)
 Verilog syntax check successful!
-File C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv changed - recompiling
-File C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv changed - recompiling
-File C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv changed - recompiling
 Selecting top level module top
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":1:7:1:19|Synthesizing module controller_SM in library work.
+
+@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal SNES1[11:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal SNES0[11:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal NES1[11:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal NES0[11:0]; possible missing assignment in an if or case statement.
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":1:7:1:21|Synthesizing module NES_para_to_ser in library work.
 
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
@@ -59,10 +71,6 @@ Selecting top level module top
 
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":1:7:1:9|Synthesizing module top in library work.
 
-@W: CL168 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":66:14:66:20|Removing instance N64_rec because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":63:17:63:21|Removing instance r_rec because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":3:13:3:15|Input N64 is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":4:13:4:18|Input remote is unused.
 @A: CL153 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":3:23:3:29|*Unassigned bits of N64_out[11:0] are referenced and tied to 0 -- simulation mismatch possible.
 @A: CL153 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":3:23:3:32|*Unassigned bits of remote_out[11:0] are referenced and tied to 0 -- simulation mismatch possible.
 @W: CL247 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":3:20:3:23|Input port bit 7 of b_in[7:0] is unused
@@ -95,13 +103,14 @@ Selecting top level module top
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":12:17:12:20|Input left is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":13:17:13:21|Input right is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":15:17:15:21|Input reset is unused.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":13:14:13:21|Input reset_in is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun May 28 16:33:53 2017
+# Sun May 28 17:06:52 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -115,7 +124,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun May 28 16:33:53 2017
+# Sun May 28 17:06:52 2017
 
 ###########################################################]
 @END
@@ -125,6 +134,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun May 28 16:33:53 2017
+# Sun May 28 17:06:52 2017
 
 ###########################################################]
