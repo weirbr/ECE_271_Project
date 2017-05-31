@@ -20,8 +20,8 @@ module N64_reciever (
 endmodule
 
 module clock_slow (
-			.input(clk_i),
-			.output(clk_o));
+			 input logic clk_i,
+		     output logic clk_o);
 			
 	logic [2:0] count;		
 	

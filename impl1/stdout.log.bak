@@ -4,7 +4,7 @@ Running in Lattice mode
 Starting:    C:\lscc\diamond\3.9_x64\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.9_x64\synpbase
 Hostname:    CONNORSLAPTOP
-Date:        Sun May 28 17:06:28 2017
+Date:        Tue May 30 20:11:34 2017
 Version:     L-2016.09L
 
 Arguments:   -product synplify_pro -batch project_impl1_synplify.tcl
@@ -26,15 +26,15 @@ Running proj_1|impl1
 
 
 Running: compile (Compile) on proj_1|impl1
-# Sun May 28 17:06:28 2017
+# Tue May 30 20:11:34 2017
 
 
 Running: compile_flow (Compile Process) on proj_1|impl1
-# Sun May 28 17:06:28 2017
+# Tue May 30 20:11:34 2017
 
 
 Running: compiler (Compile Input) on proj_1|impl1
-# Sun May 28 17:06:28 2017
+# Tue May 30 20:11:34 2017
 
 compiler exited with errors
 
@@ -43,7 +43,7 @@ Job failed on: proj_1|impl1
 
 Job: "compiler" terminated with error status: 2
 See log file: "C:\Users\Connor\Documents\ECE_271_Project\impl1\synlog\project_impl1_compiler.srr"
-# Sun May 28 17:06:28 2017
+# Tue May 30 20:11:34 2017
 
 Return Code: 2
 Run Time:00h:00m:00s

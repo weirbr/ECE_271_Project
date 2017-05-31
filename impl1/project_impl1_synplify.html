@@ -12,7 +12,7 @@
 #OS: Windows 8 6.2
 #Hostname: CONNORSLAPTOP
 
-# Sun May 28 17:06:52 2017
+# Tue May 30 20:11:51 2017
 
 #Implementation: impl1
 
@@ -68,33 +68,26 @@ Selecting top level module top
 
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":1:7:1:27|Synthesizing module button_board_reciever in library work.
 
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 1 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 2 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 3 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 4 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 5 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 6 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 7 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 8 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 9 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 10 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 11 of b_out
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":1:7:1:21|Synthesizing module remote_reciever in library work.
 
 @W: CG146 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":1:7:1:21|Creating black box for empty module remote_reciever
 
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
+
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":22:7:22:16|Synthesizing module clock_slow in library work.
+
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":1:7:1:18|Synthesizing module N64_reciever in library work.
 
-@W: CG146 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":1:7:1:18|Creating black box for empty module N64_reciever
-
+@W: CG133 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":3:23:3:29|Object N64_out is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL168 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":14:14:14:30|Removing instance slow_it_down_baby because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":9:19:9:25|Removing instance osc_int because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":1:7:1:9|Synthesizing module top in library work.
 
 @A: CL153 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":3:23:3:29|*Unassigned bits of N64_out[11:0] are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":2:15:2:20|Input N64_in is unused.
 @A: CL153 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":3:23:3:32|*Unassigned bits of remote_out[11:0] are referenced and tied to 0 -- simulation mismatch possible.
 @W: CL247 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":3:20:3:23|Input port bit 7 of b_in[7:0] is unused
 
-@W: CL246 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":3:20:3:23|Input port bits 3 to 0 of b_in[7:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL157 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|*Output b_out has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":2:17:2:19|Input clk is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":3:17:3:21|Input latch is unused.
 @N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":6:17:6:19|Input AIn is unused.
@@ -128,7 +121,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun May 28 17:06:52 2017
+# Tue May 30 20:11:51 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -142,7 +135,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun May 28 17:06:52 2017
+# Tue May 30 20:11:51 2017
 
 ###########################################################]
 @END
@@ -152,7 +145,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun May 28 17:06:52 2017
+# Tue May 30 20:11:52 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -166,10 +159,10 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun May 28 17:06:53 2017
+# Tue May 30 20:11:53 2017
 
 ###########################################################]
-# Sun May 28 17:06:53 2017
+# Tue May 30 20:11:53 2017
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -194,19 +187,10 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
 
-@N: MO111 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":9:9:9:11|Tristate driver b_out_1 (in view: work.button_board_reciever(verilog)) on net b_out_1 (in view: work.button_board_reciever(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":9:9:9:11|Tristate driver b_out_2 (in view: work.button_board_reciever(verilog)) on net b_out_2 (in view: work.button_board_reciever(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":9:9:9:11|Tristate driver b_out_3 (in view: work.button_board_reciever(verilog)) on net b_out_3 (in view: work.button_board_reciever(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":9:9:9:11|Tristate driver b_out_4 (in view: work.button_board_reciever(verilog)) on net b_out_4 (in view: work.button_board_reciever(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":9:9:9:11|Tristate driver b_out_5 (in view: work.button_board_reciever(verilog)) on net b_out_5 (in view: work.button_board_reciever(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":9:9:9:11|Tristate driver b_out_6 (in view: work.button_board_reciever(verilog)) on net b_out_6 (in view: work.button_board_reciever(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":9:9:9:11|Tristate driver b_out_7 (in view: work.button_board_reciever(verilog)) on net b_out_7 (in view: work.button_board_reciever(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":9:9:9:11|Tristate driver b_out_8 (in view: work.button_board_reciever(verilog)) on net b_out_8 (in view: work.button_board_reciever(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":9:9:9:11|Tristate driver b_out_9 (in view: work.button_board_reciever(verilog)) on net b_out_9 (in view: work.button_board_reciever(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":9:9:9:11|Tristate driver b_out_10 (in view: work.button_board_reciever(verilog)) on net b_out_10 (in view: work.button_board_reciever(verilog)) has its enable tied to GND.
 @N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":28:15:28:33|Removing instance controller_selecter (in view: work.top(verilog)) of type view:work.controller_SM(verilog) because it does not drive other instances.
 @N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":42:17:42:32|Removing instance NES_sort_player1 (in view: work.top(verilog)) of type view:work.NES_para_to_ser(verilog) because it does not drive other instances.
 @N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":59:18:59:34|Removing instance SNES_sort_player1 (in view: work.top(verilog)) of type view:work.SNES_para_to_ser(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":87:14:87:20|Removing instance N64_rec (in view: work.top(verilog)) of type view:work.N64_reciever(verilog) because it does not drive other instances.
 @N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance NES1_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance NES1_1[11:8] (in view: work.controller_SM(verilog)) of type view:PrimLib.latr(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance NES0_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
@@ -216,7 +200,6 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance SNES0_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance SNES0_1[11:8] (in view: work.controller_SM(verilog)) of type view:PrimLib.latr(prim) because it does not drive other instances.
 @W: BN114 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":84:17:84:21|Removing instance r_rec (in view: work.top(verilog)) of black box view:work.remote_reciever(verilog) because it does not drive other instances.
-@W: BN114 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":87:14:87:20|Removing instance N64_rec (in view: work.top(verilog)) of black box view:work.N64_reciever(verilog) because it does not drive other instances.
 @N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":81:23:81:33|Removing instance b_board_rec (in view: work.top(verilog)) of type view:work.button_board_reciever(verilog) because it does not drive other instances.
 @N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":7:13:7:32|Removing instance decoder_button_board (in view: work.button_board_reciever(verilog)) of type view:work.decoder3_8(verilog) because it does not drive other instances.
 ICG Latch Removal Summary:
@@ -250,10 +233,10 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 141MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun May 28 17:06:54 2017
+# Tue May 30 20:11:54 2017
 
 ###########################################################]
-# Sun May 28 17:06:54 2017
+# Tue May 30 20:11:54 2017
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -349,7 +332,7 @@ Writing EDIF Netlist and constraint files
 L-2016.09L
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 144MB)
 
 
 Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
@@ -357,7 +340,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sun May 28 17:06:55 2017
+# Timing Report written on Tue May 30 20:11:55 2017
 #
 
 
@@ -432,7 +415,7 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 29MB peak: 144MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun May 28 17:06:56 2017
+# Tue May 30 20:11:55 2017
 
 ###########################################################]
 

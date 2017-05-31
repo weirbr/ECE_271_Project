@@ -437,138 +437,6 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 1 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 1 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 2 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 2 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 3 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 3 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 4 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 4 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 5 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 5 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 6 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 6 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 7 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 7 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 8 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 8 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 9 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 9 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 10 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 10 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG134 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|No assignment to bit 11 of b_out</Dynamic>
-            <Navigation>CG134</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>No assignment to bit 11 of b_out</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
             <Dynamic>CG146 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv&quot;:1:7:1:21|Creating black box for empty module remote_reciever</Dynamic>
             <Navigation>CG146</Navigation>
             <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv</Navigation>
@@ -581,14 +449,38 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG146 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv&quot;:1:7:1:18|Creating black box for empty module N64_reciever</Dynamic>
-            <Navigation>CG146</Navigation>
+            <Dynamic>CG133 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv&quot;:3:23:3:29|Object N64_out is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
             <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>7</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>18</Navigation>
-            <Navigation>Creating black box for empty module N64_reciever</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>Object N64_out is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv&quot;:14:14:14:30|Removing instance slow_it_down_baby because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>Removing instance slow_it_down_baby because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv&quot;:9:19:9:25|Removing instance osc_int because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>Removing instance osc_int because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
@@ -605,30 +497,6 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL246 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:3:20:3:23|Input port bits 3 to 0 of b_in[7:0] are unused. Assign logic for all port bits or change the input port size.</Dynamic>
-            <Navigation>CL246</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>3</Navigation>
-            <Navigation>20</Navigation>
-            <Navigation>3</Navigation>
-            <Navigation>23</Navigation>
-            <Navigation>Input port bits 3 to 0 of b_in[7:0] are unused. Assign logic for all port bits or change the input port size.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CL157 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv&quot;:2:22:2:26|*Output b_out has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</Dynamic>
-            <Navigation>CL157</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>22</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>26</Navigation>
-            <Navigation>*Output b_out has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
             <Dynamic>BN114 :&quot;c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv&quot;:84:17:84:21|Removing instance r_rec (in view: work.top(verilog)) of black box view:work.remote_reciever(verilog) because it does not drive other instances.</Dynamic>
             <Navigation>BN114</Navigation>
             <Navigation>c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv</Navigation>
@@ -637,18 +505,6 @@
             <Navigation>84</Navigation>
             <Navigation>21</Navigation>
             <Navigation>Removing instance r_rec (in view: work.top(verilog)) of black box view:work.remote_reciever(verilog) because it does not drive other instances.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>BN114 :&quot;c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv&quot;:87:14:87:20|Removing instance N64_rec (in view: work.top(verilog)) of black box view:work.N64_reciever(verilog) because it does not drive other instances.</Dynamic>
-            <Navigation>BN114</Navigation>
-            <Navigation>c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv</Navigation>
-            <Navigation>87</Navigation>
-            <Navigation>14</Navigation>
-            <Navigation>87</Navigation>
-            <Navigation>20</Navigation>
-            <Navigation>Removing instance N64_rec (in view: work.top(verilog)) of black box view:work.N64_reciever(verilog) because it does not drive other instances.</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

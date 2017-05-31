@@ -1,2 +1,1 @@
 @W: BN114 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":84:17:84:21|Removing instance r_rec (in view: work.top(verilog)) of black box view:work.remote_reciever(verilog) because it does not drive other instances.
-@W: BN114 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":87:14:87:20|Removing instance N64_rec (in view: work.top(verilog)) of black box view:work.N64_reciever(verilog) because it does not drive other instances.

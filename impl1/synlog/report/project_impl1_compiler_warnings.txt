@@ -14,20 +14,9 @@
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":19:1:19:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":40:1:40:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":22:1:22:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 1 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 2 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 3 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 4 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 5 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 6 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 7 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 8 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 9 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 10 of b_out
-@W: CG134 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|No assignment to bit 11 of b_out
 @W: CG146 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":1:7:1:21|Creating black box for empty module remote_reciever
-@W: CG146 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":1:7:1:18|Creating black box for empty module N64_reciever
+@W: CG133 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":3:23:3:29|Object N64_out is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL168 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":14:14:14:30|Removing instance slow_it_down_baby because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":9:19:9:25|Removing instance osc_int because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL247 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":3:20:3:23|Input port bit 7 of b_in[7:0] is unused
-@W: CL246 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":3:20:3:23|Input port bits 3 to 0 of b_in[7:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL157 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":2:22:2:26|*Output b_out has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
 

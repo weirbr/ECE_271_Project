@@ -11,8 +11,8 @@
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Shift_register_SNEs.sv":1496005057
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Big_boy.sv":1496016330
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Controller_SM.sv":1496016408
-#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Button_board_reciever.sv":1496013268
-#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_reciever.sv":1496014396
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Button_board_reciever.sv":1496200232
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_reciever.sv":1496200309
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Remote_reciever.sv":1496014410
 0			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv" verilog
 1			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv" verilog
@@ -26,7 +26,7 @@
 0 -1
 1 -1
 2 -1
-3 6 7 5 2 0 4
+3 7 6 5 2 0 4
 4 -1
 5 1
 6 -1
@@ -41,6 +41,7 @@
 6 3
 7 3
 #Design Unit to File Association
+module work clock_slow 6
 module work top 3
 module work N64_reciever 6
 module work remote_reciever 7

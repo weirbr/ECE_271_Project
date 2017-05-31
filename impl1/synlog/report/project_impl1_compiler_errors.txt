@@ -1,3 +1,4 @@
-@E: CS187 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":61:12:61:12|Expecting ;
-@E: CS187 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":107:0:107:8|Expecting endmodule
+@E: CS112 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":23:10:23:15|Expecting port name
+@E: CS187 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":23:22:23:22|Expecting (
+@E: CS187 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":24:26:24:26|Expecting (
 
