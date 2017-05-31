@@ -1,10 +1,10 @@
-(edif top
+(edif N64_in_to_buttons
   (edifVersion 2 0 0)
   (edifLevel 0)
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2017 5 30 20 11 55)
+      (timeStamp 2017 5 30 21 53 3)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09L, mapper maplat, Build 1612R"))
      )
@@ -17,6 +17,25 @@
          (interface
            (port I (direction INPUT))
            (port O (direction OUTPUT))
+         )
+       )
+    )
+    (cell IB (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port I (direction INPUT))
+           (port O (direction OUTPUT))
+         )
+       )
+    )
+    (cell IFS1P3DX (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port D (direction INPUT))
+           (port SP (direction INPUT))
+           (port SCLK (direction INPUT))
+           (port CD (direction INPUT))
+           (port Q (direction OUTPUT))
          )
        )
     )
@@ -45,107 +64,133 @@
   (library work
     (edifLevel 0)
     (technology (numberDefinition ))
-    (cell top (cellType GENERIC)
+    (cell N64_in_to_buttons (cellType GENERIC)
        (view verilog (viewType NETLIST)
          (interface
-           (port (array (rename button_board "button_board[7:0]") 8) (direction INPUT))
-           (port N64 (direction INPUT))
-           (port remote (direction INPUT))
-           (port NES_Data (direction OUTPUT))
-           (port NES_Clock (direction INPUT))
-           (port NES_Latch (direction INPUT))
-           (port SNES_Data (direction OUTPUT))
-           (port SNES_Clock (direction INPUT))
-           (port SNES_Latch (direction INPUT))
-           (port (array (rename game_select "game_select[3:0]") 4) (direction INPUT))
-           (port reset_in (direction INPUT))
+           (port data (direction INPUT))
+           (port clock (direction INPUT))
+           (port enable_latch (direction INPUT))
+           (port (array (rename button_out "button_out[11:0]") 12) (direction OUTPUT))
          )
          (contents
-          (instance GND_0 (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
-          (instance VCC_0 (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
+          (instance GND (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
+          (instance VCC (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
           (instance GSR_INST (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
           )
-          (instance SNES_Data_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
-          (instance NES_Data_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
-          (net GND (joined
-           (portRef Z (instanceRef GND_0))
-           (portRef I (instanceRef NES_Data_pad))
-           (portRef I (instanceRef SNES_Data_pad))
+          (instance (rename thing2_buttonsio_0 "thing2_buttonsio[0]") (viewRef PRIM (cellRef IFS1P3DX (libraryRef LUCENT)))
+           (property IOB (string "TRUE"))
+          )
+          (instance (rename button_out_pad_11 "button_out_pad[11]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_10 "button_out_pad[10]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_9 "button_out_pad[9]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_8 "button_out_pad[8]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_7 "button_out_pad[7]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_6 "button_out_pad[6]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_5 "button_out_pad[5]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_4 "button_out_pad[4]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_3 "button_out_pad[3]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_2 "button_out_pad[2]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_1 "button_out_pad[1]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename button_out_pad_0 "button_out_pad[0]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance clock_pad (viewRef PRIM (cellRef IB (libraryRef LUCENT)))
+          )
+          (instance data_pad (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (net (rename buttons_0 "buttons[0]") (joined
+           (portRef Q (instanceRef thing2_buttonsio_0))
+           (portRef I (instanceRef button_out_pad_8))
           ))
           (net VCC (joined
-           (portRef Z (instanceRef VCC_0))
+           (portRef Z (instanceRef VCC))
+           (portRef SP (instanceRef thing2_buttonsio_0))
            (portRef GSR (instanceRef GSR_INST))
           ))
-          (net (rename button_board_0 "button_board[0]") (joined
-           (portRef (member button_board 7))
+          (net GND (joined
+           (portRef Z (instanceRef GND))
+           (portRef I (instanceRef button_out_pad_0))
+           (portRef I (instanceRef button_out_pad_1))
+           (portRef I (instanceRef button_out_pad_2))
+           (portRef I (instanceRef button_out_pad_3))
+           (portRef I (instanceRef button_out_pad_4))
+           (portRef I (instanceRef button_out_pad_5))
+           (portRef I (instanceRef button_out_pad_6))
+           (portRef I (instanceRef button_out_pad_7))
+           (portRef I (instanceRef button_out_pad_9))
+           (portRef I (instanceRef button_out_pad_10))
+           (portRef I (instanceRef button_out_pad_11))
+           (portRef CD (instanceRef thing2_buttonsio_0))
           ))
-          (net (rename button_board_1 "button_board[1]") (joined
-           (portRef (member button_board 6))
+          (net data_c (joined
+           (portRef O (instanceRef data_pad))
+           (portRef D (instanceRef thing2_buttonsio_0))
           ))
-          (net (rename button_board_2 "button_board[2]") (joined
-           (portRef (member button_board 5))
+          (net data (joined
+           (portRef data)
+           (portRef I (instanceRef data_pad))
           ))
-          (net (rename button_board_3 "button_board[3]") (joined
-           (portRef (member button_board 4))
+          (net clock_c (joined
+           (portRef O (instanceRef clock_pad))
+           (portRef SCLK (instanceRef thing2_buttonsio_0))
           ))
-          (net (rename button_board_4 "button_board[4]") (joined
-           (portRef (member button_board 3))
+          (net clock (joined
+           (portRef clock)
+           (portRef I (instanceRef clock_pad))
           ))
-          (net (rename button_board_5 "button_board[5]") (joined
-           (portRef (member button_board 2))
+          (net enable_latch (joined
+           (portRef enable_latch)
           ))
-          (net (rename button_board_6 "button_board[6]") (joined
-           (portRef (member button_board 1))
+          (net (rename button_out_0 "button_out[0]") (joined
+           (portRef O (instanceRef button_out_pad_0))
+           (portRef (member button_out 11))
           ))
-          (net (rename button_board_7 "button_board[7]") (joined
-           (portRef (member button_board 0))
+          (net (rename button_out_1 "button_out[1]") (joined
+           (portRef O (instanceRef button_out_pad_1))
+           (portRef (member button_out 10))
           ))
-          (net N64 (joined
-           (portRef N64)
+          (net (rename button_out_2 "button_out[2]") (joined
+           (portRef O (instanceRef button_out_pad_2))
+           (portRef (member button_out 9))
           ))
-          (net remote (joined
-           (portRef remote)
+          (net (rename button_out_3 "button_out[3]") (joined
+           (portRef O (instanceRef button_out_pad_3))
+           (portRef (member button_out 8))
           ))
-          (net NES_Data (joined
-           (portRef O (instanceRef NES_Data_pad))
-           (portRef NES_Data)
+          (net (rename button_out_4 "button_out[4]") (joined
+           (portRef O (instanceRef button_out_pad_4))
+           (portRef (member button_out 7))
           ))
-          (net NES_Clock (joined
-           (portRef NES_Clock)
+          (net (rename button_out_5 "button_out[5]") (joined
+           (portRef O (instanceRef button_out_pad_5))
+           (portRef (member button_out 6))
           ))
-          (net NES_Latch (joined
-           (portRef NES_Latch)
+          (net (rename button_out_6 "button_out[6]") (joined
+           (portRef O (instanceRef button_out_pad_6))
+           (portRef (member button_out 5))
           ))
-          (net SNES_Data (joined
-           (portRef O (instanceRef SNES_Data_pad))
-           (portRef SNES_Data)
+          (net (rename button_out_7 "button_out[7]") (joined
+           (portRef O (instanceRef button_out_pad_7))
+           (portRef (member button_out 4))
           ))
-          (net SNES_Clock (joined
-           (portRef SNES_Clock)
+          (net (rename button_out_8 "button_out[8]") (joined
+           (portRef O (instanceRef button_out_pad_8))
+           (portRef (member button_out 3))
           ))
-          (net SNES_Latch (joined
-           (portRef SNES_Latch)
+          (net (rename button_out_9 "button_out[9]") (joined
+           (portRef O (instanceRef button_out_pad_9))
+           (portRef (member button_out 2))
           ))
-          (net (rename game_select_0 "game_select[0]") (joined
-           (portRef (member game_select 3))
+          (net (rename button_out_10 "button_out[10]") (joined
+           (portRef O (instanceRef button_out_pad_10))
+           (portRef (member button_out 1))
           ))
-          (net (rename game_select_1 "game_select[1]") (joined
-           (portRef (member game_select 2))
-          ))
-          (net (rename game_select_2 "game_select[2]") (joined
-           (portRef (member game_select 1))
-          ))
-          (net (rename game_select_3 "game_select[3]") (joined
-           (portRef (member game_select 0))
-          ))
-          (net reset_in (joined
-           (portRef reset_in)
+          (net (rename button_out_11 "button_out[11]") (joined
+           (portRef O (instanceRef button_out_pad_11))
+           (portRef (member button_out 0))
           ))
          )
-        (property orig_inst_of (string "top"))
+        (property orig_inst_of (string "N64_in_to_buttons"))
        )
     )
   )
-  (design top (cellRef top (libraryRef work))
+  (design N64_in_to_buttons (cellRef N64_in_to_buttons (libraryRef work))
 	(property PART (string "lcmxo2_7000he-5") ))
 )

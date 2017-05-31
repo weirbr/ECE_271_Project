@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L
 #--  Project file C:\Users\Connor\Documents\ECE_271_Project\impl1\run_options.txt
-#--  Written on Tue May 30 20:11:51 2017
+#--  Written on Tue May 30 21:52:59 2017
 
 
 #project files
@@ -13,6 +13,7 @@ add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl
 add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Button_board_reciever.sv"
 add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_reciever.sv"
 add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Remote_reciever.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_serial_to_parallel.sv"
 
 
 

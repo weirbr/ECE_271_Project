@@ -1,7 +1,22 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[14] (in view: work.N64_in_to_buttons(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[13] (in view: work.N64_in_to_buttons(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[9] (in view: work.N64_in_to_buttons(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[8] (in view: work.N64_in_to_buttons(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[12] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[11] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[10] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[7] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[6] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[5] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[4] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[3] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[2] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance thing2.buttons[1] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @N: FX1056 |Writing EDF file: C:\Users\Connor\Documents\ECE_271_Project\impl1\project_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 @N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

@@ -1,76 +1,22 @@
-Selecting top level module top
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":1:7:1:19|Synthesizing module controller_SM in library work.
+Selecting top level module N64_in_to_buttons
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":23:7:23:26|Synthesizing module N64_button_converter in library work.
 
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal SNES1[11:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal SNES0[11:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal NES1[11:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal NES0[11:0]; possible missing assignment in an if or case statement.
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":1:7:1:21|Synthesizing module NES_para_to_ser in library work.
+@W: CS101 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":31:19:31:27|Index 15 is out of range for variable button_in
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":48:7:48:28|Synthesizing module N64_serial_to_parallel in library work.
 
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":19:1:19:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
-@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Register bit data is always 0.
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":1:7:1:22|Synthesizing module SNES_para_to_ser in library work.
+@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":66:1:66:9|Pruning unused register count[5:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":66:1:66:9|Pruning unused register state. Make sure that there are no unused intermediate registers.
+@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":61:1:61:9|Register bit state is always 0.
+@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":61:1:61:9|Register bit count[5] is always 0.
+@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":61:1:61:9|Register bit count[4] is always 0.
+@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":61:1:61:9|Register bit count[3] is always 0.
+@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":61:1:61:9|Register bit count[2] is always 0.
+@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":61:1:61:9|Register bit count[1] is always 0.
+@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":61:1:61:9|Register bit count[0] is always 0.
+@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":1:7:1:23|Synthesizing module N64_in_to_buttons in library work.
 
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":40:1:40:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":22:1:22:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.
-@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":40:1:40:9|Register bit data is always 0.
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv":1:7:1:16|Synthesizing module decoder3_8 in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":1:7:1:27|Synthesizing module button_board_reciever in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":1:7:1:21|Synthesizing module remote_reciever in library work.
-
-@W: CG146 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":1:7:1:21|Creating black box for empty module remote_reciever
-
-@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":22:7:22:16|Synthesizing module clock_slow in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":1:7:1:18|Synthesizing module N64_reciever in library work.
-
-@W: CG133 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":3:23:3:29|Object N64_out is declared but not assigned. Either assign a value or remove the declaration.
-@W: CL168 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":14:14:14:30|Removing instance slow_it_down_baby because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":9:19:9:25|Removing instance osc_int because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":1:7:1:9|Synthesizing module top in library work.
-
-@A: CL153 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":3:23:3:29|*Unassigned bits of N64_out[11:0] are referenced and tied to 0 -- simulation mismatch possible.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":2:15:2:20|Input N64_in is unused.
-@A: CL153 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":3:23:3:32|*Unassigned bits of remote_out[11:0] are referenced and tied to 0 -- simulation mismatch possible.
-@W: CL247 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":3:20:3:23|Input port bit 7 of b_in[7:0] is unused
-
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":2:17:2:19|Input clk is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":3:17:3:21|Input latch is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":6:17:6:19|Input AIn is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":7:17:7:19|Input BIn is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":8:17:8:19|Input sel is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":9:17:9:21|Input start is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":10:17:10:18|Input up is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":11:17:11:20|Input down is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":12:17:12:20|Input left is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":13:17:13:21|Input right is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":14:17:14:17|Input L is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":15:17:15:17|Input R is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":16:17:16:17|Input X is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":17:17:17:17|Input Y is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":18:17:18:21|Input reset is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":2:17:2:19|Input clk is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":3:17:3:21|Input latch is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":6:17:6:19|Input AIn is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":7:17:7:19|Input BIn is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":8:17:8:19|Input sel is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":9:17:9:21|Input start is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":10:17:10:18|Input up is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":11:17:11:20|Input down is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":12:17:12:20|Input left is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":13:17:13:21|Input right is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":15:17:15:21|Input reset is unused.
-@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":13:14:13:21|Input reset_in is unused.
+@W: CL305 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":66:1:66:9|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":51:18:51:29|Input enable_latch is unused.
+@W: CL246 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":25:25:25:33|Input port bits 14 to 13 of button_in[14:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":25:25:25:33|Input port bits 9 to 8 of button_in[14:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":24:25:24:30|Input joy_in is unused.

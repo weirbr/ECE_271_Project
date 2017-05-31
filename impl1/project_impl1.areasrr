@@ -1,15 +1,17 @@
 ----------------------------------------------------------------------
-Report for cell top.verilog
+Report for cell N64_in_to_buttons.verilog
 
-Register bits: 0 of 6864 (0%)
+Register bits: 1 of 6864 (0%)
 PIC Latch:       0
-I/O cells:       2
+I/O cells:       14
                                           Cell usage:
                                cell       count    Res Usage(%)
                                 GSR        1       100.0
-                                 OB        2       100.0
+                                 IB        2       100.0
+                           IFS1P3DX        1       100.0
+                                 OB       12       100.0
                                 PUR        1       100.0
                                 VHI        1       100.0
                                 VLO        1       100.0
                             
-                         TOTAL             6           
+                         TOTAL            19           

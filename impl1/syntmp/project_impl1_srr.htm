@@ -1,20 +1,20 @@
 <html><body><samp><pre>
-<!@TC:1496200311>
+<!@TC:1496206379>
 #Build: Synplify Pro L-2016.09L, Build 077R, Dec  2 2016
 #install: C:\lscc\diamond\3.9_x64\synpbase
 #OS: Windows 8 6.2
 #Hostname: CONNORSLAPTOP
 
-# Tue May 30 20:11:51 2017
+# Tue May 30 21:52:59 2017
 
 #Implementation: impl1
 
 <a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
-@N: : <!@TM:1496200312> | Running in 64-bit mode 
+@N: : <!@TM:1496206380> | Running in 64-bit mode 
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
 <a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
-@N: : <!@TM:1496200312> | Running in 64-bit mode 
+@N: : <!@TM:1496206380> | Running in 64-bit mode 
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
 @I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v" (library work)
@@ -31,104 +31,51 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv" (library work)
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv" (library work)
 @I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv" (library work)
+@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv" (library work)
 Verilog syntax check successful!
-Selecting top level module top
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:1:7:1:20:@N:CG364:@XP_MSG">Controller_SM.sv(1)</a><!@TM:1496200312> | Synthesizing module controller_SM in library work.
+Selecting top level module N64_in_to_buttons
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:23:7:23:27:@N:CG364:@XP_MSG">N64_serial_to_parallel.sv(23)</a><!@TM:1496206380> | Synthesizing module N64_button_converter in library work.
 
-<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL118:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | Latch generated from always block for signal SNES1[11:0]; possible missing assignment in an if or case statement.</font>
-<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL118:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | Latch generated from always block for signal SNES0[11:0]; possible missing assignment in an if or case statement.</font>
-<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL118:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | Latch generated from always block for signal NES1[11:0]; possible missing assignment in an if or case statement.</font>
-<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL118:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | Latch generated from always block for signal NES0[11:0]; possible missing assignment in an if or case statement.</font>
-<font color=#A52A2A>@W:<a href="@W:CL217:@XP_HELP">CL217</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL217:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | always_comb does not infer combinatorial logic</font>
-<font color=#A52A2A>@W:<a href="@W:CL217:@XP_HELP">CL217</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL217:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | always_comb does not infer combinatorial logic</font>
-<font color=#A52A2A>@W:<a href="@W:CL217:@XP_HELP">CL217</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL217:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | always_comb does not infer combinatorial logic</font>
-<font color=#A52A2A>@W:<a href="@W:CL217:@XP_HELP">CL217</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL217:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | always_comb does not infer combinatorial logic</font>
-<font color=#A52A2A>@W:<a href="@W:CL217:@XP_HELP">CL217</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL217:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | always_comb does not infer combinatorial logic</font>
-<font color=#A52A2A>@W:<a href="@W:CL217:@XP_HELP">CL217</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL217:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | always_comb does not infer combinatorial logic</font>
-<font color=#A52A2A>@W:<a href="@W:CL217:@XP_HELP">CL217</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL217:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | always_comb does not infer combinatorial logic</font>
-<font color=#A52A2A>@W:<a href="@W:CL217:@XP_HELP">CL217</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:32:3:32:7:@W:CL217:@XP_MSG">Controller_SM.sv(32)</a><!@TM:1496200312> | always_comb does not infer combinatorial logic</font>
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:1:7:1:22:@N:CG364:@XP_MSG">NES_parallel_to_serial.sv(1)</a><!@TM:1496200312> | Synthesizing module NES_para_to_ser in library work.
+<font color=#A52A2A>@W:<a href="@W:CS101:@XP_HELP">CS101</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:31:19:31:28:@W:CS101:@XP_MSG">N64_serial_to_parallel.sv(31)</a><!@TM:1496206380> | Index 15 is out of range for variable button_in</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:48:7:48:29:@N:CG364:@XP_MSG">N64_serial_to_parallel.sv(48)</a><!@TM:1496206380> | Synthesizing module N64_serial_to_parallel in library work.
 
-<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:33:1:33:10:@W:CL169:@XP_MSG">NES_parallel_to_serial.sv(33)</a><!@TM:1496200312> | Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.</font>
-<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:19:1:19:10:@W:CL169:@XP_MSG">NES_parallel_to_serial.sv(19)</a><!@TM:1496200312> | Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.</font>
-@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:33:1:33:10:@N:CL189:@XP_MSG">NES_parallel_to_serial.sv(33)</a><!@TM:1496200312> | Register bit data is always 0.
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:1:7:1:23:@N:CG364:@XP_MSG">Shift_register_SNEs.sv(1)</a><!@TM:1496200312> | Synthesizing module SNES_para_to_ser in library work.
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:66:1:66:10:@W:CL169:@XP_MSG">N64_serial_to_parallel.sv(66)</a><!@TM:1496206380> | Pruning unused register count[5:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:66:1:66:10:@W:CL169:@XP_MSG">N64_serial_to_parallel.sv(66)</a><!@TM:1496206380> | Pruning unused register state. Make sure that there are no unused intermediate registers.</font>
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:61:1:61:10:@N:CL189:@XP_MSG">N64_serial_to_parallel.sv(61)</a><!@TM:1496206380> | Register bit state is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:61:1:61:10:@N:CL189:@XP_MSG">N64_serial_to_parallel.sv(61)</a><!@TM:1496206380> | Register bit count[5] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:61:1:61:10:@N:CL189:@XP_MSG">N64_serial_to_parallel.sv(61)</a><!@TM:1496206380> | Register bit count[4] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:61:1:61:10:@N:CL189:@XP_MSG">N64_serial_to_parallel.sv(61)</a><!@TM:1496206380> | Register bit count[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:61:1:61:10:@N:CL189:@XP_MSG">N64_serial_to_parallel.sv(61)</a><!@TM:1496206380> | Register bit count[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:61:1:61:10:@N:CL189:@XP_MSG">N64_serial_to_parallel.sv(61)</a><!@TM:1496206380> | Register bit count[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:61:1:61:10:@N:CL189:@XP_MSG">N64_serial_to_parallel.sv(61)</a><!@TM:1496206380> | Register bit count[0] is always 0.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:1:7:1:24:@N:CG364:@XP_MSG">N64_serial_to_parallel.sv(1)</a><!@TM:1496206380> | Synthesizing module N64_in_to_buttons in library work.
 
-<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:40:1:40:10:@W:CL169:@XP_MSG">Shift_register_SNEs.sv(40)</a><!@TM:1496200312> | Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.</font>
-<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:22:1:22:10:@W:CL169:@XP_MSG">Shift_register_SNEs.sv(22)</a><!@TM:1496200312> | Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.</font>
-@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:40:1:40:10:@N:CL189:@XP_MSG">Shift_register_SNEs.sv(40)</a><!@TM:1496200312> | Register bit data is always 0.
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv:1:7:1:17:@N:CG364:@XP_MSG">Decode_SNES.sv(1)</a><!@TM:1496200312> | Synthesizing module decoder3_8 in library work.
+<font color=#A52A2A>@W:<a href="@W:CL305:@XP_HELP">CL305</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:66:1:66:10:@W:CL305:@XP_MSG">N64_serial_to_parallel.sv(66)</a><!@TM:1496206380> | Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:51:18:51:30:@N:CL159:@XP_MSG">N64_serial_to_parallel.sv(51)</a><!@TM:1496206380> | Input enable_latch is unused.
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:25:25:25:34:@W:CL246:@XP_MSG">N64_serial_to_parallel.sv(25)</a><!@TM:1496206380> | Input port bits 14 to 13 of button_in[14:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:25:25:25:34:@W:CL246:@XP_MSG">N64_serial_to_parallel.sv(25)</a><!@TM:1496206380> | Input port bits 9 to 8 of button_in[14:0] are unused. Assign logic for all port bits or change the input port size.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:24:25:24:31:@N:CL159:@XP_MSG">N64_serial_to_parallel.sv(24)</a><!@TM:1496206380> | Input joy_in is unused.
 
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv:1:7:1:28:@N:CG364:@XP_MSG">Button_board_reciever.sv(1)</a><!@TM:1496200312> | Synthesizing module button_board_reciever in library work.
-
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv:1:7:1:22:@N:CG364:@XP_MSG">Remote_reciever.sv(1)</a><!@TM:1496200312> | Synthesizing module remote_reciever in library work.
-
-<font color=#A52A2A>@W:<a href="@W:CG146:@XP_HELP">CG146</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv:1:7:1:22:@W:CG146:@XP_MSG">Remote_reciever.sv(1)</a><!@TM:1496200312> | Creating black box for empty module remote_reciever</font>
-
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v:1793:7:1793:11:@N:CG364:@XP_MSG">machxo2.v(1793)</a><!@TM:1496200312> | Synthesizing module OSCH in library work.
-
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv:22:7:22:17:@N:CG364:@XP_MSG">N64_reciever.sv(22)</a><!@TM:1496200312> | Synthesizing module clock_slow in library work.
-
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv:1:7:1:19:@N:CG364:@XP_MSG">N64_reciever.sv(1)</a><!@TM:1496200312> | Synthesizing module N64_reciever in library work.
-
-<font color=#A52A2A>@W:<a href="@W:CG133:@XP_HELP">CG133</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv:3:23:3:30:@W:CG133:@XP_MSG">N64_reciever.sv(3)</a><!@TM:1496200312> | Object N64_out is declared but not assigned. Either assign a value or remove the declaration.</font>
-<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv:14:14:14:31:@W:CL168:@XP_MSG">N64_reciever.sv(14)</a><!@TM:1496200312> | Removing instance slow_it_down_baby because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
-<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv:9:19:9:26:@W:CL168:@XP_MSG">N64_reciever.sv(9)</a><!@TM:1496200312> | Removing instance osc_int because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv:1:7:1:10:@N:CG364:@XP_MSG">Big_boy.sv(1)</a><!@TM:1496200312> | Synthesizing module top in library work.
-
-@A:<a href="@A:CL153:@XP_HELP">CL153</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv:3:23:3:30:@A:CL153:@XP_MSG">N64_reciever.sv(3)</a><!@TM:1496200312> | *Unassigned bits of N64_out[11:0] are referenced and tied to 0 -- simulation mismatch possible.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv:2:15:2:21:@N:CL159:@XP_MSG">N64_reciever.sv(2)</a><!@TM:1496200312> | Input N64_in is unused.
-@A:<a href="@A:CL153:@XP_HELP">CL153</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv:3:23:3:33:@A:CL153:@XP_MSG">Remote_reciever.sv(3)</a><!@TM:1496200312> | *Unassigned bits of remote_out[11:0] are referenced and tied to 0 -- simulation mismatch possible.
-<font color=#A52A2A>@W:<a href="@W:CL247:@XP_HELP">CL247</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv:3:20:3:24:@W:CL247:@XP_MSG">Button_board_reciever.sv(3)</a><!@TM:1496200312> | Input port bit 7 of b_in[7:0] is unused</font>
-
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:2:17:2:20:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(2)</a><!@TM:1496200312> | Input clk is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:3:17:3:22:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(3)</a><!@TM:1496200312> | Input latch is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:6:17:6:20:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(6)</a><!@TM:1496200312> | Input AIn is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:7:17:7:20:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(7)</a><!@TM:1496200312> | Input BIn is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:8:17:8:20:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(8)</a><!@TM:1496200312> | Input sel is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:9:17:9:22:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(9)</a><!@TM:1496200312> | Input start is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:10:17:10:19:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(10)</a><!@TM:1496200312> | Input up is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:11:17:11:21:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(11)</a><!@TM:1496200312> | Input down is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:12:17:12:21:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(12)</a><!@TM:1496200312> | Input left is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:13:17:13:22:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(13)</a><!@TM:1496200312> | Input right is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:14:17:14:18:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(14)</a><!@TM:1496200312> | Input L is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:15:17:15:18:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(15)</a><!@TM:1496200312> | Input R is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:16:17:16:18:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(16)</a><!@TM:1496200312> | Input X is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:17:17:17:18:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(17)</a><!@TM:1496200312> | Input Y is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv:18:17:18:22:@N:CL159:@XP_MSG">Shift_register_SNEs.sv(18)</a><!@TM:1496200312> | Input reset is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:2:17:2:20:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(2)</a><!@TM:1496200312> | Input clk is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:3:17:3:22:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(3)</a><!@TM:1496200312> | Input latch is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:6:17:6:20:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(6)</a><!@TM:1496200312> | Input AIn is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:7:17:7:20:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(7)</a><!@TM:1496200312> | Input BIn is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:8:17:8:20:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(8)</a><!@TM:1496200312> | Input sel is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:9:17:9:22:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(9)</a><!@TM:1496200312> | Input start is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:10:17:10:19:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(10)</a><!@TM:1496200312> | Input up is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:11:17:11:21:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(11)</a><!@TM:1496200312> | Input down is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:12:17:12:21:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(12)</a><!@TM:1496200312> | Input left is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:13:17:13:22:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(13)</a><!@TM:1496200312> | Input right is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv:15:17:15:22:@N:CL159:@XP_MSG">NES_parallel_to_serial.sv(15)</a><!@TM:1496200312> | Input reset is unused.
-@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv:13:14:13:22:@N:CL159:@XP_MSG">Controller_SM.sv(13)</a><!@TM:1496200312> | Input reset_in is unused.
-
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue May 30 20:11:51 2017
+# Tue May 30 21:52:59 2017
 
 ###########################################################]
 <a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
-@N: : <!@TM:1496200312> | Running in 64-bit mode 
+@N: : <!@TM:1496206380> | Running in 64-bit mode 
 File C:\Users\Connor\Documents\ECE_271_Project\impl1\synwork\layer0.srs changed - recompiling
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv:1:7:1:10:@N:NF107:@XP_MSG">Big_boy.sv(1)</a><!@TM:1496200312> | Selected library: work cell: top view verilog as top level
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv:1:7:1:10:@N:NF107:@XP_MSG">Big_boy.sv(1)</a><!@TM:1496200312> | Selected library: work cell: top view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:1:7:1:24:@N:NF107:@XP_MSG">N64_serial_to_parallel.sv(1)</a><!@TM:1496206380> | Selected library: work cell: N64_in_to_buttons view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:1:7:1:24:@N:NF107:@XP_MSG">N64_serial_to_parallel.sv(1)</a><!@TM:1496206380> | Selected library: work cell: N64_in_to_buttons view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue May 30 20:11:51 2017
+# Tue May 30 21:52:59 2017
 
 ###########################################################]
 @END
@@ -138,24 +85,24 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue May 30 20:11:52 2017
+# Tue May 30 21:53:00 2017
 
 ###########################################################]
 <a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
-@N: : <!@TM:1496200313> | Running in 64-bit mode 
+@N: : <!@TM:1496206381> | Running in 64-bit mode 
 File C:\Users\Connor\Documents\ECE_271_Project\impl1\synwork\project_impl1_comp.srs changed - recompiling
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv:1:7:1:10:@N:NF107:@XP_MSG">Big_boy.sv(1)</a><!@TM:1496200313> | Selected library: work cell: top view verilog as top level
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv:1:7:1:10:@N:NF107:@XP_MSG">Big_boy.sv(1)</a><!@TM:1496200313> | Selected library: work cell: top view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:1:7:1:24:@N:NF107:@XP_MSG">N64_serial_to_parallel.sv(1)</a><!@TM:1496206381> | Selected library: work cell: N64_in_to_buttons view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv:1:7:1:24:@N:NF107:@XP_MSG">N64_serial_to_parallel.sv(1)</a><!@TM:1496206381> | Selected library: work cell: N64_in_to_buttons view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue May 30 20:11:53 2017
+# Tue May 30 21:53:01 2017
 
 ###########################################################]
-# Tue May 30 20:11:53 2017
+# Tue May 30 21:53:01 2017
 
 <a name=mapperReport5></a>Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02</a>
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -163,16 +110,16 @@ Product Version L-2016.09L
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1496200314> | No constraint file specified. 
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1496206382> | No constraint file specified. 
 Linked File: <a href="C:\Users\Connor\Documents\ECE_271_Project\impl1\project_impl1_scck.rpt:@XP_FILE">project_impl1_scck.rpt</a>
 Printing clock  summary report in "C:\Users\Connor\Documents\ECE_271_Project\impl1\project_impl1_scck.rpt" file 
-@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1496200314> | Running in 64-bit mode. 
-@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1496200314> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1496206382> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1496206382> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
@@ -180,25 +127,10 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
 
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv:28:15:28:34:@N:BN115:@XP_MSG">big_boy.sv(28)</a><!@TM:1496200314> | Removing instance controller_selecter (in view: work.top(verilog)) of type view:work.controller_SM(verilog) because it does not drive other instances.
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv:42:17:42:33:@N:BN115:@XP_MSG">big_boy.sv(42)</a><!@TM:1496200314> | Removing instance NES_sort_player1 (in view: work.top(verilog)) of type view:work.NES_para_to_ser(verilog) because it does not drive other instances.
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv:59:18:59:35:@N:BN115:@XP_MSG">big_boy.sv(59)</a><!@TM:1496200314> | Removing instance SNES_sort_player1 (in view: work.top(verilog)) of type view:work.SNES_para_to_ser(verilog) because it does not drive other instances.
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv:87:14:87:21:@N:BN115:@XP_MSG">big_boy.sv(87)</a><!@TM:1496200314> | Removing instance N64_rec (in view: work.top(verilog)) of type view:work.N64_reciever(verilog) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv:32:3:32:7:@N:BN362:@XP_MSG">controller_sm.sv(32)</a><!@TM:1496200314> | Removing sequential instance NES1_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv:32:3:32:7:@N:BN362:@XP_MSG">controller_sm.sv(32)</a><!@TM:1496200314> | Removing sequential instance NES1_1[11:8] (in view: work.controller_SM(verilog)) of type view:PrimLib.latr(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv:32:3:32:7:@N:BN362:@XP_MSG">controller_sm.sv(32)</a><!@TM:1496200314> | Removing sequential instance NES0_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv:32:3:32:7:@N:BN362:@XP_MSG">controller_sm.sv(32)</a><!@TM:1496200314> | Removing sequential instance NES0_1[11:8] (in view: work.controller_SM(verilog)) of type view:PrimLib.latr(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv:32:3:32:7:@N:BN362:@XP_MSG">controller_sm.sv(32)</a><!@TM:1496200314> | Removing sequential instance SNES1_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv:32:3:32:7:@N:BN362:@XP_MSG">controller_sm.sv(32)</a><!@TM:1496200314> | Removing sequential instance SNES1_1[11:8] (in view: work.controller_SM(verilog)) of type view:PrimLib.latr(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv:32:3:32:7:@N:BN362:@XP_MSG">controller_sm.sv(32)</a><!@TM:1496200314> | Removing sequential instance SNES0_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
-@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv:32:3:32:7:@N:BN362:@XP_MSG">controller_sm.sv(32)</a><!@TM:1496200314> | Removing sequential instance SNES0_1[11:8] (in view: work.controller_SM(verilog)) of type view:PrimLib.latr(prim) because it does not drive other instances.
-<font color=#A52A2A>@W:<a href="@W:BN114:@XP_HELP">BN114</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv:84:17:84:22:@W:BN114:@XP_MSG">big_boy.sv(84)</a><!@TM:1496200314> | Removing instance r_rec (in view: work.top(verilog)) of black box view:work.remote_reciever(verilog) because it does not drive other instances.</font>
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv:81:23:81:34:@N:BN115:@XP_MSG">big_boy.sv(81)</a><!@TM:1496200314> | Removing instance b_board_rec (in view: work.top(verilog)) of type view:work.button_board_reciever(verilog) because it does not drive other instances.
-@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv:7:13:7:33:@N:BN115:@XP_MSG">button_board_reciever.sv(7)</a><!@TM:1496200314> | Removing instance decoder_button_board (in view: work.button_board_reciever(verilog)) of type view:work.decoder3_8(verilog) because it does not drive other instances.
 ICG Latch Removal Summary:
 Number of ICG latches removed:	0
 Number of ICG latches not removed:	0
-syn_allowed_resources : blockrams=26  set on top level netlist top
+syn_allowed_resources : blockrams=26  set on top level netlist N64_in_to_buttons
 
 Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
@@ -207,15 +139,22 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 <a name=mapperReport6></a>Clock Summary</a>
 *****************
 
-Start     Requested     Requested     Clock     Clock     Clock
-Clock     Frequency     Period        Type      Group     Load 
----------------------------------------------------------------
-===============================================================
+Start                       Requested     Requested     Clock        Clock                   Clock
+Clock                       Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------
+N64_in_to_buttons|clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     15   
+==================================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@W:MT529:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206382> | Found inferred clock N64_in_to_buttons|clock which controls 15 sequential elements including thing2.buttons[14:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
 
 Finished Pre Mapping Phase.
 
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206382> | Removing sequential instance buttons[14] (in view: work.N64_serial_to_parallel(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206382> | Removing sequential instance buttons[13] (in view: work.N64_serial_to_parallel(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206382> | Removing sequential instance buttons[9] (in view: work.N64_serial_to_parallel(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206382> | Removing sequential instance buttons[8] (in view: work.N64_serial_to_parallel(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 None
 None
 
@@ -223,13 +162,13 @@ Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 141MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue May 30 20:11:54 2017
+# Tue May 30 21:53:01 2017
 
 ###########################################################]
-# Tue May 30 20:11:54 2017
+# Tue May 30 21:53:02 2017
 
 <a name=mapperReport7></a>Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02</a>
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -237,8 +176,8 @@ Product Version L-2016.09L
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1496200315> | Running in 64-bit mode. 
-@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1496200315> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1496206383> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1496206383> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
 
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
 
@@ -260,13 +199,41 @@ Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[14] (in view: work.N64_in_to_buttons(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[14] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[13] (in view: work.N64_in_to_buttons(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[13] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[9] (in view: work.N64_in_to_buttons(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[9] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[8] (in view: work.N64_in_to_buttons(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[8] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[12] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[12] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[11] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[11] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[10] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[10] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[7] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[7] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[6] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[6] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[5] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[5] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[4] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[4] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[3] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[3] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[2] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[2] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@N:BN362:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Removing sequential instance thing2.buttons[1] (in view: work.N64_in_to_buttons(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv:66:1:66:10:@A:BN291:@XP_MSG">n64_serial_to_parallel.sv(66)</a><!@TM:1496206383> | Boundary register thing2.buttons[1] (in view: work.N64_in_to_buttons(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
-
-
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
 
 Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
@@ -287,14 +254,14 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CP
 Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
-@N:<a href="@N:FX164:@XP_HELP">FX164</a> : <!@TM:1496200315> | The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.   
+@N:<a href="@N:FX164:@XP_HELP">FX164</a> : <!@TM:1496206383> | The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.   
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
@@ -305,46 +272,52 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 
 <a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
 
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance    
+-------------------------------------------------------------------------------------------
+<a href="@|S:clock@|E:thing2_buttonsio[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       clock               port                   1          thing2_buttonsio[0]
+===========================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 141MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 141MB)
 
 Writing Analyst data base C:\Users\Connor\Documents\ECE_271_Project\impl1\synwork\project_impl1_m.srm
 
 Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
 
 Writing EDIF Netlist and constraint files
-@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1496200315> | Writing EDF file: C:\Users\Connor\Documents\ECE_271_Project\impl1\project_impl1.edi 
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1496206383> | Writing EDF file: C:\Users\Connor\Documents\ECE_271_Project\impl1\project_impl1.edi 
 L-2016.09L
-@N:<a href="@N:BW106:@XP_HELP">BW106</a> : <!@TM:1496200315> | Synplicity Constraint File capacitance units using default value of 1pF  
+@N:<a href="@N:BW106:@XP_HELP">BW106</a> : <!@TM:1496206383> | Synplicity Constraint File capacitance units using default value of 1pF  
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 144MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
 
 
 Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
 
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1496206383> | Found inferred clock N64_in_to_buttons|clock with period 1000.00ns. Please declare a user-defined clock on object "p:clock"</font> 
 
 
 <a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
-# Timing Report written on Tue May 30 20:11:55 2017
+# Timing Report written on Tue May 30 21:53:03 2017
 #
 
 
-Top view:               top
+Top view:               N64_in_to_buttons
 Requested Frequency:    1.0 MHz
 Wire load mode:         top
 Paths requested:        5
 Constraint File(s):    
-@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1496200315> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1496206383> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
 
-@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1496200315> | Clock constraints include only register-to-register paths associated with each individual clock. 
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1496206383> | Clock constraints include only register-to-register paths associated with each individual clock. 
 
 
 
@@ -354,6 +327,12 @@ Constraint File(s):
 
 Worst slack in design: NA
 
+                            Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock              Frequency     Frequency     Period        Period        Slack     Type         Group              
+------------------------------------------------------------------------------------------------------------------------------
+N64_in_to_buttons|clock     1.0 MHz       NA            1000.000      NA            NA        inferred     Inferred_clkgroup_0
+==============================================================================================================================
+@N:<a href="@N:MT582:@XP_HELP">MT582</a> : <!@TM:1496206383> | Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack 
 
 
 
@@ -392,23 +371,25 @@ Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01
 <a name=resourceUsage13></a>Resource Usage Report</a>
 Part: lcmxo2_7000he-5
 
-Register bits: 0 of 6864 (0%)
+Register bits: 1 of 6864 (0%)
 PIC Latch:       0
-I/O cells:       2
+I/O cells:       14
 
 
 Details:
 GSR:            1
-OB:             2
+IB:             2
+IFS1P3DX:       1
+OB:             12
 PUR:            1
 VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 29MB peak: 144MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 144MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue May 30 20:11:55 2017
+# Tue May 30 21:53:03 2017
 
 ###########################################################]
 

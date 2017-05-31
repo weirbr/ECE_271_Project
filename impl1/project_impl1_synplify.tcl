@@ -52,6 +52,7 @@ add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Contr
 add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Button_board_reciever.sv}
 add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_reciever.sv}
 add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Remote_reciever.sv}
+add_file -verilog {C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_serial_to_parallel.sv}
 
 
 #-- set result format/file last
