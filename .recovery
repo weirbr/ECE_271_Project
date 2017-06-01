@@ -30,6 +30,36 @@
         <Source name="impl1/sources/N64_serial_to_parallel.sv" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
+        <Source name="impl1/sources/Recieve1.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Send0.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Send1.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Sig_Decode_In.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Sig_Decode_Out.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/Splitter.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/State_Machine_N64_Send_And_Recieve.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/State_Machine_Send_0.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/State_Machine_Send_1.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/sources/State_N64.sv" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
         <Source name="project.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>
