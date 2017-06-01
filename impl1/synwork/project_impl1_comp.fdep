@@ -1,4 +1,4 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\synwork\\project_impl1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|C:\\Users\\Connor\\Documents\\ECE_271_Project|-I|C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\|-I|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.v|-devicelib|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\synwork\\project_impl1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|C:\\Users\\Connor\\Documents\\ECE_271_Project|-I|C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\|-I|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.v|-devicelib|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv"
 #CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_ver.exe":1481017140
 #CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.v":1481014424
 #CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v":1481014424
@@ -8,52 +8,102 @@
 #CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1481016754
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\NES_parallel_to_serial.sv":1496005070
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Decode_SNES.sv":1496005923
-#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Shift_register_SNEs.sv":1496005057
-#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Big_boy.sv":1496016330
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Shift_register_SNEs.sv":1496357967
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Controller_SM.sv":1496016408
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Button_board_reciever.sv":1496200232
-#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_reciever.sv":1496200309
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_reciever.sv":1496357918
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Remote_reciever.sv":1496014410
-#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_serial_to_parallel.sv":1496206374
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_serial_to_parallel.sv":1496353478
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Big_boy.sv":1496353727
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Recieve1.sv":1496358015
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Send0.sv":1496352482
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Send1.sv":1496352483
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Sig_Decode_In.sv":1496352485
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Sig_Decode_Out.sv":1496352486
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Splitter.sv":1496352487
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\State_Machine_N64_Send_And_Recieve.sv":1496352488
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\State_Machine_Send_0.sv":1496352489
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\State_Machine_Send_1.sv":1496352491
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\State_N64.sv":1496352492
 0			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv" verilog
 1			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv" verilog
 2			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv" verilog
-3			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv" verilog
-4			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv" verilog
-5			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv" verilog
-6			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv" verilog
-7			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv" verilog
-8			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv" verilog
+3			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv" verilog
+4			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv" verilog
+5			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv" verilog
+6			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv" verilog
+7			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv" verilog
+8			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv" verilog
+9			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Recieve1.sv" verilog
+10			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send0.sv" verilog
+11			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send1.sv" verilog
+12			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_In.sv" verilog
+13			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_Out.sv" verilog
+14			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Splitter.sv" verilog
+15			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv" verilog
+16			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_0.sv" verilog
+17			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_1.sv" verilog
+18			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_N64.sv" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 -1
 2 -1
-3 6 7 5 2 0 4
-4 -1
-5 1
+3 -1
+4 1
+5 7 12 18 13
 6 -1
 7 -1
-8 -1
+8 5 6 4 2 0 3
+9 -1
+10 16
+11 17
+12 -1
+13 11 10 14
+14 -1
+15 -1
+16 -1
+17 -1
+18 15
 #Dependency Lists(Users Of)
-0 3
-1 5
-2 3
-3 -1
-4 3
-5 3
-6 3
-7 3
+0 8
+1 4
+2 8
+3 8
+4 8
+5 8
+6 8
+7 5
 8 -1
+9 -1
+10 13
+11 13
+12 5
+13 5
+14 13
+15 18
+16 10
+17 11
+18 5
 #Design Unit to File Association
-module work N64_in_to_buttons 8
-module work N64_serial_to_parallel 8
-module work N64_button_converter 8
-module work clock_slow 6
-module work top 3
-module work N64_reciever 6
-module work remote_reciever 7
-module work button_board_reciever 5
-module work controller_SM 4
+module work State_Machine_N64_Send_And_Recieve 15
+module work Splitter 14
+module work Send1 11
+module work State_Machine_Send_1 17
+module work Send0 10
+module work State_Machine_Send_0 16
+module work Recieve1 9
+module work top 8
+module work N64_serial_to_parallel 7
+module work N64_button_converter 7
+module work remote_reciever 6
+module work N64_reciever 5
+module work N64_in_to_buttons 7
+module work Sig_Decode_In 12
+module work State_N64 18
+module work Sig_Decode_Out 13
+module work clock_slow 5
+module work button_board_reciever 4
+module work controller_SM 3
 module work SNES_para_to_ser 2
 module work decoder3_8 1
 module work NES_para_to_ser 0

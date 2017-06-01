@@ -3,7 +3,6 @@
 #
 
 # Period Constraints 
-#FREQUENCY PORT "clock" 1.0 MHz;
 
 
 # Output Constraints 

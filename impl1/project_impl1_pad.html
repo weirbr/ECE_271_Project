@@ -14,14 +14,13 @@ Performance Grade:      5
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-Mon May 29 12:39:46 2017
+Thu Jun 01 16:00:36 2017
 
 Pinout by Port Name:
 +-----------+----------+--------------+-------+-----------+-----------+--------------------------------+
 | Port Name | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                     |
 +-----------+----------+--------------+-------+-----------+-----------+--------------------------------+
-| NES_Data  | 34/3     | LVCMOS25_OUT | PL25A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW  |
-| SNES_Data | 35/3     | LVCMOS25_OUT | PL25B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW  |
+| Data_Out  | 35/3     | LVCMOS25_OUT | PL25B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW  |
 +-----------+----------+--------------+-------+-----------+-----------+--------------------------------+
 
 Vccio by Bank:
@@ -69,8 +68,8 @@ Vccio by Bank:
 | 31/3     |     unused, PULL:DOWN |            |              | PL23D |                |           |           |
 | 32/3     |     unused, PULL:DOWN |            |              | PL24A |                |           |           |
 | 33/3     |     unused, PULL:DOWN |            |              | PL24B |                |           |           |
-| 34/3     | NES_Data              |            | LVCMOS25_OUT | PL25A |                |           |           |
-| 35/3     | SNES_Data             |            | LVCMOS25_OUT | PL25B |                |           |           |
+| 34/3     |     unused, PULL:DOWN |            |              | PL25A |                |           |           |
+| 35/3     | Data_Out              |            | LVCMOS25_OUT | PL25B |                |           |           |
 | 38/2     |     unused, PULL:DOWN |            |              | PB4A  |                |           |           |
 | 39/2     |     unused, PULL:DOWN |            |              | PB4B  |                |           |           |
 | 40/2     |     unused, PULL:DOWN |            |              | PB6A  | CSSPIN         |           |           |
@@ -396,8 +395,7 @@ Dedicated sysCONFIG Pins:
 List of All Pins' Locate Preferences Based on Final Placement After PAR 
 to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
 
-LOCATE  COMP  "NES_Data"  SITE  "34";
-LOCATE  COMP  "SNES_Data"  SITE  "35";
+LOCATE  COMP  "Data_Out"  SITE  "35";
 
 
 
@@ -409,7 +407,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Mon May 29 12:39:46 2017
+Thu Jun 01 16:00:36 2017
 
 
 

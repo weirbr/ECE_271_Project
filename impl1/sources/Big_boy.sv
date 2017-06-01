@@ -1,6 +1,6 @@
 module top (
 	input logic [7:0] button_board,
-	input logic N64,
+	inout logic N64,
 	input logic remote,
 	
 	output logic NES_Data,
@@ -86,6 +86,7 @@ module top (
 						.remote_out(remote_wires));
 	N64_reciever N64_rec (
 						.N64_in(N64),
+						.Reset(reset_in),
 						.N64_out(N64_wires));
 						
 	

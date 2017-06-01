@@ -1,6 +1,2 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
-@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance buttons[14] (in view: work.N64_serial_to_parallel(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance buttons[13] (in view: work.N64_serial_to_parallel(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance buttons[9] (in view: work.N64_serial_to_parallel(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Removing sequential instance buttons[8] (in view: work.N64_serial_to_parallel(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.

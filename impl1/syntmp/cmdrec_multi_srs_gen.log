@@ -1,7 +1,7 @@
 C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\Connor\Documents\ECE_271_Project\impl1\synwork\project_impl1_comp.srs  -osyn  C:\Users\Connor\Documents\ECE_271_Project\impl1\synwork\project_impl1_mult.srs  -log  C:\Users\Connor\Documents\ECE_271_Project\impl1\synlog\project_impl1_multi_srs_gen.srr 
 rc:0 success:1 runtime:0
-file:C:\Users\Connor\Documents\ECE_271_Project\impl1\synwork\project_impl1_comp.srs|io:i|time:1496206379|size:3223|exec:0
-file:C:\Users\Connor\Documents\ECE_271_Project\impl1\synwork\project_impl1_mult.srs|io:o|time:1496206381|size:2201|exec:0
-file:C:\Users\Connor\Documents\ECE_271_Project\impl1\synlog\project_impl1_multi_srs_gen.srr|io:o|time:1496206381|size:872|exec:0
+file:C:\Users\Connor\Documents\ECE_271_Project\impl1\synwork\project_impl1_comp.srs|io:i|time:1496358018|size:2198|exec:0
+file:C:\Users\Connor\Documents\ECE_271_Project\impl1\synwork\project_impl1_mult.srs|io:o|time:1496358019|size:1599|exec:0
+file:C:\Users\Connor\Documents\ECE_271_Project\impl1\synlog\project_impl1_multi_srs_gen.srr|io:o|time:1496358019|size:854|exec:0
 file:C:\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1481016996|size:3128320|exec:1
 file:C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1481017264|size:3947520|exec:1

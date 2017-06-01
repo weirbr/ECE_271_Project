@@ -1,5 +1,5 @@
 
-             Lattice Mapping Report File for Design Module 'top'
+           Lattice Mapping Report File for Design Module 'Recieve1'
 
 
 Design Information
@@ -15,7 +15,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.9.0.99.2
-Mapped on:  05/29/17  12:39:44
+Mapped on:  06/01/17  16:00:32
 
 Design Summary
 --------------
@@ -32,7 +32,7 @@ Design Summary
       Number used as distributed RAM:     0
       Number used as ripple logic:        0
       Number used as shift registers:     0
-   Number of PIO sites used: 2 + 4(JTAG) out of 115 (5%)
+   Number of PIO sites used: 1 + 4(JTAG) out of 115 (4%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:  0 out of 1 (0%)
    EFB used :       No
@@ -66,90 +66,50 @@ Design Summary
 
 
 
-Design:  top                                           Date:  05/29/17  12:39:44
+Design:  Recieve1                                      Date:  06/01/17  16:00:32
 
 Design Summary (cont)
 ---------------------
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
+     Net VCC: 1 loads
 
 
 
 
-   Number of warnings:  19
+   Number of warnings:  5
    Number of errors:    0
      
 
 Design Errors/Warnings
 ----------------------
 
-WARNING - map: IO buffer missing for top level port button_board[7:0](7)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port button_board[7:0](6)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port button_board[7:0](5)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port button_board[7:0](4)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port button_board[7:0](3)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port button_board[7:0](2)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port button_board[7:0](1)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port button_board[7:0](0)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port N64...logic will be
+WARNING - map: IO buffer missing for top level port Disable...logic will be
      discarded.
-WARNING - map: IO buffer missing for top level port remote...logic will be
+WARNING - map: IO buffer missing for top level port Data_In...logic will be
      discarded.
-WARNING - map: IO buffer missing for top level port NES_Clock...logic will be
+WARNING - map: IO buffer missing for top level port Enable...logic will be
      discarded.
-WARNING - map: IO buffer missing for top level port NES_Latch...logic will be
+WARNING - map: IO buffer missing for top level port clk...logic will be
      discarded.
-WARNING - map: IO buffer missing for top level port SNES_Clock...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port SNES_Latch...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port game_select[3:0](3)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port game_select[3:0](2)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port game_select[3:0](1)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port game_select[3:0](0)...logic
-     will be discarded.
-WARNING - map: IO buffer missing for top level port reset_in...logic will be
+WARNING - map: IO buffer missing for top level port Reset...logic will be
      discarded.
 
 IO (PIO) Attributes
 -------------------
 
 +---------------------+-----------+-----------+------------+
-
-                                    Page 2
-
-
-
-
-Design:  top                                           Date:  05/29/17  12:39:44
-
-IO (PIO) Attributes (cont)
---------------------------
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
-| NES_Data            | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| SNES_Data           | OUTPUT    | LVCMOS25  |            |
+| Data_Out            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 
 Removed logic
 -------------
 
-Block VCC_0 undriven or does not drive anything - clipped.
 Block GSR_INST undriven or does not drive anything - clipped.
-Signal VCC undriven or does not drive anything - clipped.
+Block GND_0 undriven or does not drive anything - clipped.
 
 Memory Usage
 ------------
@@ -167,33 +127,7 @@ Run Time and Memory Usage
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                    Page 3
+                                    Page 2
 
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.

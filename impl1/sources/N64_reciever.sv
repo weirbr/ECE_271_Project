@@ -58,6 +58,11 @@ module N64_reciever (
 			//PLACE THE N64 SHIFT REGISTER HERE
 			//FOR THE INPUTS, IT NEEDS TO TAKE A TWO BIT DATA LINE (DataRecieverToShifter) AND AN ENABLE LINE AND CLOCK LINE
 			//THAT ARE OUTPUTTED FROM SignalDecoderIn (ENABLE - EnableRecieverToShifter | CLOCK - ClockRecieverToShifter)
+			N64_in_to_buttons shifter (
+			.data(DataRecieverToShifter),
+			.clock(ClockRecieverToShifter),
+			.enable_latch(EnableRecieverToShifter),
+			.button_out(N64_out));
 			
 endmodule
 

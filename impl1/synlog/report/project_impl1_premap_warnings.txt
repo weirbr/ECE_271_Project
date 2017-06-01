@@ -1,1 +1,1 @@
-@W: MT529 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":66:1:66:9|Found inferred clock N64_in_to_buttons|clock which controls 15 sequential elements including thing2.buttons[14:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MO129 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_resources\recieve1.sv":30:2:30:3|Sequential instance Data_Out is reduced to a combinational gate by constant propagation.

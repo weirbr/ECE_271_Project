@@ -4,97 +4,27 @@
         <Message>
             <ID>51001046</ID>
             <Severity>Warning</Severity>
-            <Dynamic>button_board[7:0](7)</Dynamic>
+            <Dynamic>Disable</Dynamic>
         </Message>
         <Message>
             <ID>51001046</ID>
             <Severity>Warning</Severity>
-            <Dynamic>button_board[7:0](6)</Dynamic>
+            <Dynamic>Data_In</Dynamic>
         </Message>
         <Message>
             <ID>51001046</ID>
             <Severity>Warning</Severity>
-            <Dynamic>button_board[7:0](5)</Dynamic>
+            <Dynamic>Enable</Dynamic>
         </Message>
         <Message>
             <ID>51001046</ID>
             <Severity>Warning</Severity>
-            <Dynamic>button_board[7:0](4)</Dynamic>
+            <Dynamic>clk</Dynamic>
         </Message>
         <Message>
             <ID>51001046</ID>
             <Severity>Warning</Severity>
-            <Dynamic>button_board[7:0](3)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>button_board[7:0](2)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>button_board[7:0](1)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>button_board[7:0](0)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>N64</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>remote</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>NES_Clock</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>NES_Latch</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>SNES_Clock</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>SNES_Latch</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>game_select[3:0](3)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>game_select[3:0](2)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>game_select[3:0](1)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>game_select[3:0](0)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>reset_in</Dynamic>
+            <Dynamic>Reset</Dynamic>
         </Message>
     </Task>
     <Task name="Translate">
@@ -102,145 +32,443 @@
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>button_board[0]</Dynamic>
-            <Navigation>button_board[0]</Navigation>
+            <Dynamic>Disable</Dynamic>
+            <Navigation>Disable</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>button_board[1]</Dynamic>
-            <Navigation>button_board[1]</Navigation>
+            <Dynamic>Data_In</Dynamic>
+            <Navigation>Data_In</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>button_board[2]</Dynamic>
-            <Navigation>button_board[2]</Navigation>
+            <Dynamic>Enable</Dynamic>
+            <Navigation>Enable</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>button_board[3]</Dynamic>
-            <Navigation>button_board[3]</Navigation>
+            <Dynamic>clk</Dynamic>
+            <Navigation>clk</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>button_board[4]</Dynamic>
-            <Navigation>button_board[4]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>button_board[5]</Dynamic>
-            <Navigation>button_board[5]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>button_board[6]</Dynamic>
-            <Navigation>button_board[6]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>button_board[7]</Dynamic>
-            <Navigation>button_board[7]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>N64</Dynamic>
-            <Navigation>N64</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>remote</Dynamic>
-            <Navigation>remote</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>NES_Clock</Dynamic>
-            <Navigation>NES_Clock</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>NES_Latch</Dynamic>
-            <Navigation>NES_Latch</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>SNES_Clock</Dynamic>
-            <Navigation>SNES_Clock</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>SNES_Latch</Dynamic>
-            <Navigation>SNES_Latch</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>game_select[0]</Dynamic>
-            <Navigation>game_select[0]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>game_select[1]</Dynamic>
-            <Navigation>game_select[1]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>game_select[2]</Dynamic>
-            <Navigation>game_select[2]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>game_select[3]</Dynamic>
-            <Navigation>game_select[3]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>reset_in</Dynamic>
-            <Navigation>reset_in</Navigation>
+            <Dynamic>Reset</Dynamic>
+            <Navigation>Reset</Navigation>
         </Message>
         <Message>
             <ID>1163101</ID>
             <Severity>Warning</Severity>
-            <Dynamic>19</Dynamic>
+            <Dynamic>5</Dynamic>
         </Message>
     </Task>
     <Task name="Synplify_Synthesis">
         <Message>
             <ID>2011000</ID>
             <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|Latch generated from always block for signal SNES1[11:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Latch generated from always block for signal SNES1[11:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|Latch generated from always block for signal SNES0[11:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Latch generated from always block for signal SNES0[11:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|Latch generated from always block for signal NES1[11:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Latch generated from always block for signal NES1[11:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|Latch generated from always block for signal NES0[11:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Latch generated from always block for signal NES0[11:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv&quot;:32:3:32:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv&quot;:33:1:33:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv&quot;:19:1:19:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv&quot;:40:1:40:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv&quot;:22:1:22:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG146 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv&quot;:1:7:1:21|Creating black box for empty module remote_reciever</Dynamic>
+            <Navigation>CG146</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Creating black box for empty module remote_reciever</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_0.sv&quot;:26:2:26:3|Latch generated from always block for signal Data_Out; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_0.sv</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal Data_Out; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_0.sv&quot;:26:2:26:3|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_0.sv</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_1.sv&quot;:26:2:26:3|Latch generated from always block for signal Data_Out; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_1.sv</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal Data_Out; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_1.sv&quot;:26:2:26:3|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_1.sv</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send1.sv&quot;:19:2:19:3|Latch generated from always block for signal ENABLE_STATE; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send1.sv</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Latch generated from always block for signal ENABLE_STATE; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send1.sv&quot;:19:2:19:3|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send1.sv</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_Out.sv&quot;:14:7:14:17|Object One_Bot_Out is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_Out.sv</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Object One_Bot_Out is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv&quot;:56:3:56:6|Latch generated from always block for signal OutputData[2:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Latch generated from always block for signal OutputData[2:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv&quot;:56:3:56:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv&quot;:56:3:56:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL217 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv&quot;:56:3:56:6|always_comb does not infer combinatorial logic</Dynamic>
+            <Navigation>CL217</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>56</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>always_comb does not infer combinatorial logic</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL265 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv&quot;:9:1:9:9|Removing unused bit 3 of DataStored[3:0]. Either assign all bits or reduce the width of the signal.</Dynamic>
+            <Navigation>CL265</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Removing unused bit 3 of DataStored[3:0]. Either assign all bits or reduce the width of the signal.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL265 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv&quot;:9:1:9:9|Removing unused bit 0 of DataStored[3:0]. Either assign all bits or reduce the width of the signal.</Dynamic>
+            <Navigation>CL265</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Removing unused bit 0 of DataStored[3:0]. Either assign all bits or reduce the width of the signal.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv&quot;:13:1:13:9|Pruning register bit 0 of DataStored[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bit 0 of DataStored[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_In.sv&quot;:7:14:7:23|Object Enable_Out is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_In.sv</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>Object Enable_Out is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_In.sv&quot;:8:14:8:20|Object clk_Out is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_In.sv</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Object clk_Out is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
@@ -257,81 +485,62 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv&quot;:66:1:66:9|Pruning unused register count[5:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv&quot;:71:1:71:9|Pruning unused register state. Make sure that there are no unused intermediate registers.</Dynamic>
             <Navigation>CL169</Navigation>
             <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv</Navigation>
-            <Navigation>66</Navigation>
+            <Navigation>71</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>66</Navigation>
-            <Navigation>9</Navigation>
-            <Navigation>Pruning unused register count[5:0]. Make sure that there are no unused intermediate registers.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv&quot;:66:1:66:9|Pruning unused register state. Make sure that there are no unused intermediate registers.</Dynamic>
-            <Navigation>CL169</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv</Navigation>
-            <Navigation>66</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>66</Navigation>
+            <Navigation>71</Navigation>
             <Navigation>9</Navigation>
             <Navigation>Pruning unused register state. Make sure that there are no unused intermediate registers.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL305 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv&quot;:66:1:66:9|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)</Dynamic>
-            <Navigation>CL305</Navigation>
+            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv&quot;:71:1:71:9|Pruning unused register count[5:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
             <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv</Navigation>
-            <Navigation>66</Navigation>
+            <Navigation>71</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>66</Navigation>
+            <Navigation>71</Navigation>
             <Navigation>9</Navigation>
-            <Navigation>Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)</Navigation>
+            <Navigation>Pruning unused register count[5:0]. Make sure that there are no unused intermediate registers.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL246 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv&quot;:25:25:25:33|Input port bits 14 to 13 of button_in[14:0] are unused. Assign logic for all port bits or change the input port size.</Dynamic>
-            <Navigation>CL246</Navigation>
+            <Dynamic>CL169 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv&quot;:61:1:61:9|Pruning unused register count[5:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
             <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv</Navigation>
-            <Navigation>25</Navigation>
-            <Navigation>25</Navigation>
-            <Navigation>25</Navigation>
-            <Navigation>33</Navigation>
-            <Navigation>Input port bits 14 to 13 of button_in[14:0] are unused. Assign logic for all port bits or change the input port size.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CL246 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv&quot;:25:25:25:33|Input port bits 9 to 8 of button_in[14:0] are unused. Assign logic for all port bits or change the input port size.</Dynamic>
-            <Navigation>CL246</Navigation>
-            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv</Navigation>
-            <Navigation>25</Navigation>
-            <Navigation>25</Navigation>
-            <Navigation>25</Navigation>
-            <Navigation>33</Navigation>
-            <Navigation>Input port bits 9 to 8 of button_in[14:0] are unused. Assign logic for all port bits or change the input port size.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv&quot;:66:1:66:9|Found inferred clock N64_in_to_buttons|clock which controls 15 sequential elements including thing2.buttons[14:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
-            <Navigation>MT529</Navigation>
-            <Navigation>c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv</Navigation>
-            <Navigation>66</Navigation>
+            <Navigation>61</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>66</Navigation>
+            <Navigation>61</Navigation>
             <Navigation>9</Navigation>
-            <Navigation>Found inferred clock N64_in_to_buttons|clock which controls 15 sequential elements including thing2.buttons[14:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+            <Navigation>Pruning unused register count[5:0]. Make sure that there are no unused intermediate registers.</Navigation>
         </Message>
         <Message>
-            <ID>2019993</ID>
+            <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT420 |Found inferred clock N64_in_to_buttons|clock with period 1000.00ns. Please declare a user-defined clock on object &quot;p:clock&quot;</Dynamic>
-            <Navigation>MT420</Navigation>
-            <Navigation>Found inferred clock N64_in_to_buttons|clock with period 1000.00ns. Please declare a user-defined clock on object &quot;p:clock&quot;</Navigation>
+            <Dynamic>CS263 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv&quot;:15:13:15:16|Port-width mismatch for port data. The port definition is 1 bits, but the actual port connection bit width is 2. Adjust either the definition or the instantiation of this port.</Dynamic>
+            <Navigation>CS263</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Port-width mismatch for port data. The port definition is 1 bits, but the actual port connection bit width is 2. Adjust either the definition or the instantiation of this port.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CG749 :&quot;C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv&quot;:3:13:3:15|An inout port (N64) must be a net type</Dynamic>
+            <Navigation>CG749</Navigation>
+            <Navigation>C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>An inout port (N64) must be a net type</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

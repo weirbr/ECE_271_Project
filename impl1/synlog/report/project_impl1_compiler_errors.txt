@@ -1,3 +1,2 @@
-@E: CG285 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":45:0:45:8|Expecting statement
-@E: CS187 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":87:0:87:8|Expecting endmodule
+@E: CG749 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":3:13:3:15|An inout port (N64) must be a net type
 

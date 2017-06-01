@@ -1,8 +1,8 @@
 ---------------------------------------------------
-Report for cell top
-   Instance path: top
+Report for cell Recieve1
+   Instance path: Recieve1
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   SLIC	       1.00        100.0
                                   LUT4	       1.00        100.0
-                                 IOBUF	          2        100.0
+                                 IOBUF	          1        100.0

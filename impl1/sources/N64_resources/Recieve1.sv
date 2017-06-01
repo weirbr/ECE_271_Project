@@ -20,8 +20,8 @@ module Recieve1(
 	
 	always_ff @ (posedge clk, negedge Reset)
 		begin
-			if(!reset)
-				State = S0;
+			if(!Reset)
+				State = s0;
 			else
 				State = NextState;
 		end
@@ -29,22 +29,23 @@ module Recieve1(
 	always_comb
 		if(Enable && !Disable)
 		begin
-			begin
 				case(State)
 					s0: begin
-						NextState = S1;
+						NextState = s1;
 						DataWire = 1;
 						end
 					s1: begin
-						NextState = S1;
+						NextState = s1;
 						DataWire = 1;
 						end
 					s2: begin
-						NextState = S1;
+						NextState = s1;
 						DataWire = 1;
 						end
 				    s3: begin
-						NextState = S1;
+						NextState = s1;
 						DataWire = 1;
 						end
+					endcase
+		end
 endmodule
