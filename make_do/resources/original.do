@@ -1,0 +1,1 @@
+add wave -posistion end sim:/N64_reciever/N64_inadd wave -posistion end sim:/N64_reciever/clk_iadd wave -posistion end sim:/N64_reciever/N64_outadd wave -posistion end sim:/N64_reciever/clk_slowforce -freeze sim:/N64_reciever/clk_i 1 0, 0 {35714 ps}, -r 71429
