@@ -1,0 +1,3 @@
+@W: MO129 :|Sequential instance N64_rec.StateMachineBig.StateMachine.OutputData_0_.res_reg is reduced to a combinational gate by constant propagation.
+@W: MO129 :|Sequential instance N64_rec.StateMachineBig.StateMachine.OutputData_2_.res_reg_0 is reduced to a combinational gate by constant propagation.
+@W: MT420 |Found inferred clock State_Machine_Send_0|Data_Out_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:N64_rec.ImActuallyAnEncoderButWhatever.Send_Zero_Right.stateMachine.Data_Out"

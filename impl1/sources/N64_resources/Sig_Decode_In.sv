@@ -7,12 +7,14 @@ module Sig_Decode_In(
 	output logic Enable_Out,
 	output logic clk_Out
 	);
+	
+	logic [3:0] RegisterOut;
+	logic [1:0] DataWire;
+	
 	assign clk_out = clk;
 	assign Enable_out = Enable;
 	assign Data_Out = DataWire;
 	
-	logic [3:0] RegisterOut;
-	logic [1:0] DataWire;
 	
 	always_comb
 	begin

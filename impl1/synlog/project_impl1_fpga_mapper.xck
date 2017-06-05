@@ -1,1 +1,6 @@
-CKID0001:@|S:clock@|E:thing2_buttonsio[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0001:@|S:N64_rec.osc_int@|E:N64_rec.slow_it_down_baby.clk_o@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:N64_rec.StateMachineBig.StateMachine.State_ret_1@|E:N64_rec.StateMachineBig.StateMachine.OutputData_0_.res_reg_0@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:N64_rec.ImActuallyAnEncoderButWhatever.Send_Zero_Right.stateMachine.Data_Out@|E:N64_rec.ImActuallyAnEncoderButWhatever.Send_One_Left.stateMachine.Data_Out@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:N64_rec.StateMachineBig.StateMachine.OutputData_2_.res_lat_RNO@|E:N64_rec.StateMachineBig.StateMachine.OutputData_2_.res_lat@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 
+CKID0005:@|S:N64_rec.StateMachineBig.StateMachine.State_RNID9C3[3]@|E:N64_rec.StateMachineBig.StateMachine.OutputData_0_.res_lat@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005 
+CKID0006:@|S:N64_rec.ImActuallyAnEncoderButWhatever.Send_Zero_Right.stateMachine.Data_Out_RNO_0@|E:N64_rec.ImActuallyAnEncoderButWhatever.Send_Zero_Right.stateMachine.Data_Out@|F:@syn_sample_clock_path1==CKID0006@|M:ClockId0006 

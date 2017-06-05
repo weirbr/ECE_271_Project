@@ -1,4 +1,4 @@
-# Thu Jun 01 16:00:19 2017
+# Thu Jun 01 20:46:47 2017
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -12,22 +12,43 @@ Printing clock  summary report in "C:\Users\Connor\Documents\ECE_271_Project\imp
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
 
-@W: MO129 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_resources\recieve1.sv":30:2:30:3|Sequential instance Data_Out is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_resources\send1.sv":19:2:19:3|Sequential instance N64_rec.ImActuallyAnEncoderButWhatever.Send_One_Left.ENABLE_STATE is reduced to a combinational gate by constant propagation.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_resources\sig_decode_in.sv":29:19:29:25|Removing instance Shifter (in view: work.Sig_Decode_In(verilog)) of type view:work.Four_Bit_Register(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_resources\sig_decode_out.sv":16:10:16:14|Removing instance split (in view: work.Sig_Decode_Out(verilog)) of type view:work.Splitter(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":28:15:28:33|Removing instance controller_selecter (in view: work.top(verilog)) of type view:work.controller_SM(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":42:17:42:32|Removing instance NES_sort_player1 (in view: work.top(verilog)) of type view:work.NES_para_to_ser(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":59:18:59:34|Removing instance SNES_sort_player1 (in view: work.top(verilog)) of type view:work.SNES_para_to_ser(verilog) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance NES1_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance NES1_1[11:8] (in view: work.controller_SM(verilog)) of type view:PrimLib.latr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance NES0_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance NES0_1[11:8] (in view: work.controller_SM(verilog)) of type view:PrimLib.latr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance SNES1_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance SNES1_1[11:8] (in view: work.controller_SM(verilog)) of type view:PrimLib.latr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance SNES0_1[7:0] (in view: work.controller_SM(verilog)) of type view:PrimLib.lats(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\controller_sm.sv":32:3:32:6|Removing sequential instance SNES0_1[11:8] (in view: work.controller_SM(verilog)) of type view:PrimLib.latr(prim) because it does not drive other instances.
+@W: BN114 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":84:17:84:21|Removing instance r_rec (in view: work.top(verilog)) of black box view:work.remote_reciever(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\big_boy.sv":81:23:81:33|Removing instance b_board_rec (in view: work.top(verilog)) of type view:work.button_board_reciever(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_reciever.sv":61:21:61:27|Removing instance shifter (in view: work.N64_reciever(verilog)) of type view:work.N64_in_to_buttons(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\button_board_reciever.sv":7:13:7:32|Removing instance decoder_button_board (in view: work.button_board_reciever(verilog)) of type view:work.decoder3_8(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":10:23:10:28|Removing instance thing1 (in view: work.N64_in_to_buttons(verilog)) of type view:work.N64_button_converter(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_reciever.sv":48:17:48:31|Removing instance SignalDecoderIn (in view: work.N64_reciever(verilog)) of type view:work.Sig_Decode_In(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_serial_to_parallel.sv":14:25:14:30|Removing instance thing2 (in view: work.N64_in_to_buttons(verilog)) of type view:work.N64_serial_to_parallel(verilog) because it does not drive other instances.
+@N: BN362 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_resources\state_machine_n64_send_and_recieve.sv":56:3:56:6|Removing sequential instance OutputData[1] (in view: work.State_Machine_N64_Send_And_Recieve(verilog)) of type view:PrimLib.latrs(prim) because it does not drive other instances.
 ICG Latch Removal Summary:
 Number of ICG latches removed:	0
 Number of ICG latches not removed:	0
-syn_allowed_resources : blockrams=26  set on top level netlist Recieve1
+syn_allowed_resources : blockrams=26  set on top level netlist top
 
 Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
@@ -36,15 +57,49 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Clock Summary
 *****************
 
-Start     Requested     Requested     Clock     Clock     Clock
-Clock     Frequency     Period        Type      Group     Load 
----------------------------------------------------------------
-===============================================================
+Start                                            Requested     Requested     Clock                                                Clock                   Clock
+Clock                                            Frequency     Period        Type                                                 Group                   Load 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+N64_reciever|clk_i_inferred_clock                14.0 MHz      71.429        inferred                                             Inferred_clkgroup_0     4    
+State_Machine_Send_0|Data_Out_inferred_clock     1.0 MHz       1000.000      inferred                                             Inferred_clkgroup_1     5    
+System                                           1.0 MHz       1000.000      system                                               system_clkgroup         3    
+clock_slow|clk_o_derived_clock                   14.0 MHz      71.429        derived (from N64_reciever|clk_i_inferred_clock)     Inferred_clkgroup_0     21   
+===============================================================================================================================================================
+
+@W: MT531 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_resources\state_machine_n64_send_and_recieve.sv":56:3:56:6|Found signal identified as System clock which controls 3 sequential elements including N64_rec.StateMachineBig.StateMachine.OutputData[2].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_reciever.sv":75:1:75:9|Found inferred clock N64_reciever|clk_i_inferred_clock which controls 4 sequential elements including N64_rec.slow_it_down_baby.count[2:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_resources\state_machine_send_1.sv":26:2:26:3|Found inferred clock State_Machine_Send_0|Data_Out_inferred_clock which controls 5 sequential elements including N64_rec.ImActuallyAnEncoderButWhatever.Send_One_Left.stateMachine.Data_Out. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
+Encoding state machine State[9:0] (in view: work.State_Machine_N64_Send_And_Recieve(verilog))
+original code -> new code
+   0000 -> 0000000001
+   0001 -> 0000000010
+   0011 -> 0000000100
+   0101 -> 0000001000
+   0111 -> 0000010000
+   1000 -> 0000100000
+   1010 -> 0001000000
+   1100 -> 0010000000
+   1110 -> 0100000000
+   1111 -> 1000000000
+Encoding state machine state[3:0] (in view: work.State_Machine_Send_0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_resources\state_machine_send_0.sv":18:1:18:9|There are no possible illegal states for state machine state[3:0] (in view: work.State_Machine_Send_0(verilog)); safe FSM implementation is not required.
+Encoding state machine state[3:0] (in view: work.State_Machine_Send_1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\connor\documents\ece_271_project\impl1\sources\n64_resources\state_machine_send_1.sv":18:1:18:9|There are no possible illegal states for state machine state[3:0] (in view: work.State_Machine_Send_1(verilog)); safe FSM implementation is not required.
 None
 None
 
@@ -52,9 +107,9 @@ Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 141MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Jun 01 16:00:20 2017
+# Thu Jun 01 20:46:48 2017
 
 ###########################################################]

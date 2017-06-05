@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L
 #--  Project file C:\Users\Connor\Documents\ECE_271_Project\impl1\run_options.txt
-#--  Written on Thu Jun 01 16:06:40 2017
+#--  Written on Thu Jun 01 20:46:45 2017
 
 
 #project files

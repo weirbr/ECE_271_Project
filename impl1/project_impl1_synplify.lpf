@@ -3,6 +3,7 @@
 #
 
 # Period Constraints 
+#FREQUENCY NET "N64_rec/ImActuallyAnEncoderButWhatever/Send_Zero_Right/stateMachine/One_Top_In" 1.0 MHz;
 
 
 # Output Constraints 

@@ -1,6 +1,6 @@
 module top (
 	input logic [7:0] button_board,
-	inout logic N64,
+	inout N64,
 	input logic remote,
 	
 	output logic NES_Data,

@@ -6,9 +6,19 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+6 gated/generated clock tree(s) driving 28 clock pin(s) of sequential element(s)
+0 instances converted, 28 sequential instances remain driven by gated/generated clocks
 
+================================================================================================================================================================= Gated/Generated Clocks =================================================================================================================================================================
+Clock Tree ID     Driving Element                                                                        Drive Element Type     Fanout     Sample Instance                                                                  Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       N64_rec.osc_int                                                                        OSCH                   22         N64_rec.slow_it_down_baby.clk_o                                                  Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       N64_rec.StateMachineBig.StateMachine.State_ret_1                                       FD1S3DX                2          N64_rec.StateMachineBig.StateMachine.OutputData_0_.res_reg_0                     No generated or derived clock directive on output of sequential instance                                                      
+@K:CKID0003       N64_rec.ImActuallyAnEncoderButWhatever.Send_Zero_Right.stateMachine.Data_Out           FD1S1AY                1          N64_rec.ImActuallyAnEncoderButWhatever.Send_One_Left.stateMachine.Data_Out       No generated or derived clock directive on output of sequential instance                                                      
+@K:CKID0004       N64_rec.StateMachineBig.StateMachine.OutputData_2_.res_lat_RNO                         ORCALUT4               1          N64_rec.StateMachineBig.StateMachine.OutputData_2_.res_lat                       No clocks found on inputs                                                                                                     
+@K:CKID0005       N64_rec.StateMachineBig.StateMachine.State_RNID9C3[3]                                  ORCALUT4               1          N64_rec.StateMachineBig.StateMachine.OutputData_0_.res_lat                       No clocks found on inputs                                                                                                     
+@K:CKID0006       N64_rec.ImActuallyAnEncoderButWhatever.Send_Zero_Right.stateMachine.Data_Out_RNO_0     ORCALUT4               1          N64_rec.ImActuallyAnEncoderButWhatever.Send_Zero_Right.stateMachine.Data_Out     No clocks found on inputs                                                                                                     
+==========================================================================================================================================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]

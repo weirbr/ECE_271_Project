@@ -1,0 +1,48 @@
+
+fsm_encoding {20281281} onehot
+
+fsm_state_encoding {20281281} Sending {0000000001}
+
+fsm_state_encoding {20281281} Recieving {0000000010}
+
+fsm_state_encoding {20281281} Send1 {0000000100}
+
+fsm_state_encoding {20281281} Send8 {0000001000}
+
+fsm_state_encoding {20281281} Send2 {0000010000}
+
+fsm_state_encoding {20281281} Send6 {0000100000}
+
+fsm_state_encoding {20281281} Send7 {0001000000}
+
+fsm_state_encoding {20281281} Send5 {0010000000}
+
+fsm_state_encoding {20281281} Send4 {0100000000}
+
+fsm_state_encoding {20281281} Send3 {1000000000}
+
+fsm_registers {20281281} {State[9]}  {State[8]}  {State[7]}  {State[6]}  {State[5]}  {State[4]}  {State[3]}  {State[2]}  {State[1]}  {State[0]} 
+
+fsm_encoding {21181183} original
+
+fsm_state_encoding {21181183} s0 {00}
+
+fsm_state_encoding {21181183} s1 {01}
+
+fsm_state_encoding {21181183} s2 {10}
+
+fsm_state_encoding {21181183} s3 {11}
+
+fsm_registers {21181183} {state[1]}  {state[0]} 
+
+fsm_encoding {22181182} original
+
+fsm_state_encoding {22181182} s0 {00}
+
+fsm_state_encoding {22181182} s1 {01}
+
+fsm_state_encoding {22181182} s2 {10}
+
+fsm_state_encoding {22181182} s3 {11}
+
+fsm_registers {22181182} {state[1]}  {state[0]} 

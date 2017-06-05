@@ -11,13 +11,13 @@
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Shift_register_SNEs.sv":1496357967
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Controller_SM.sv":1496016408
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Button_board_reciever.sv":1496200232
-#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_reciever.sv":1496357918
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_reciever.sv":1496363243
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Remote_reciever.sv":1496014410
-#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_serial_to_parallel.sv":1496353478
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_serial_to_parallel.sv":1496375199
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Recieve1.sv":1496358015
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Send0.sv":1496352482
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Send1.sv":1496352483
-#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Sig_Decode_In.sv":1496352485
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Sig_Decode_In.sv":1496374903
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Sig_Decode_Out.sv":1496352486
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Splitter.sv":1496352487
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\State_Machine_N64_Send_And_Recieve.sv":1496352488
@@ -25,7 +25,7 @@
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\State_Machine_Send_1.sv":1496352491
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\State_N64.sv":1496352492
 #CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\N64_resources\\Four_Bit_Register.sv":1496358362
-#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Big_boy.sv":1496353727
+#CUR:"C:\\Users\\Connor\\Documents\\ECE_271_Project\\impl1\\sources\\Big_boy.sv":1496363259
 #numinternalfiles:6
 #defaultlanguage:verilog
 0			"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv" verilog
@@ -68,7 +68,7 @@
 16 -1
 17 14
 18 -1
-19 3 0 2 4 6 5
+19 3 0 2 4 5 6
 #Dependency Lists(Users Of)
 0 19
 1 4

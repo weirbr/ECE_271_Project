@@ -46,7 +46,7 @@ endmodule
 
 
 module N64_serial_to_parallel (	//latch is 1, stop is 1, 33 bit length
-						input logic data,
+						input logic [1:0] data,
 						input logic clock,
 						input logic enable_latch,
 						output logic [18:0] joystick,
@@ -59,27 +59,22 @@ module N64_serial_to_parallel (	//latch is 1, stop is 1, 33 bit length
 	logic [5:0] count;
 						
 	always_ff @(posedge enable_latch) begin
-		if (data === 2'b00) begin
-			state = s1;
-		end
-		else begin
-			state = s0;
-			count = 0;
-		end
+		state = s0;
+		count = 0;
 	end
 	
 	always_ff @(posedge clock) begin
 		case (state)
 			s0: begin
-				if (count < 16) begin
+				if (count < 16 && data != 2'b00) begin
 					buttons[count] = data[0];
 					count = count + 1;
 				end
-				else if (count >= 16) begin
+				else if (count >= 16  && data != 2'b00) begin
 					joystick[count - 16] = data[0];
 					count = count + 1;
 				end
-				else if (count >= 33) begin
+				else if (count >= 33  && data != 2'b00) begin
 					state = s1;
 				end
 				end

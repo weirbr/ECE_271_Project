@@ -1,3 +1,22 @@
-@P:  Worst Slack : NA
+@P:  Worst Slack : 994.654
+@P:  State_Machine_Send_0|Data_Out_inferred_clock - Estimated Frequency : NA
+@P:  State_Machine_Send_0|Data_Out_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  State_Machine_Send_0|Data_Out_inferred_clock - Estimated Period : NA
+@P:  State_Machine_Send_0|Data_Out_inferred_clock - Requested Period : 1000.000
+@P:  State_Machine_Send_0|Data_Out_inferred_clock - Slack : NA
+@P:  System - Estimated Frequency : 187.0 MHz
+@P:  System - Requested Frequency : 1.0 MHz
+@P:  System - Estimated Period : 5.346
+@P:  System - Requested Period : 1000.000
+@P:  System - Slack : 994.654
+@P:  Total Area : 32.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
 @P:  Total Area : 0.0
 @P:  CPU Time : 0h:00m:01s

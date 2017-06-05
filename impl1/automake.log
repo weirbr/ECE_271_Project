@@ -1,154 +1,71 @@
 
-synpwrap -msg -prj "project_impl1_synplify.tcl" -log "project_impl1.srf"
-Copyright (C) 1992-2017 Lattice Semiconductor Corporation. All rights reserved.
-Lattice Diamond Version 3.9.0.99.2
-    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "C:/Users/Connor/Documents/ECE_271_Project/impl1" -path "C:/Users/Connor/Documents/ECE_271_Project"   "C:/Users/Connor/Documents/ECE_271_Project/impl1/project_impl1.edi" "project_impl1.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.9.0.99.2
 
-==contents of project_impl1.srf
-#Build: Synplify Pro L-2016.09L, Build 077R, Dec  2 2016
-#install: C:\lscc\diamond\3.9_x64\synpbase
-#OS: Windows 8 6.2
-#Hostname: CONNORSLAPTOP
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="Send8"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="Send7"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="Send6"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="Send5"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="Send4"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="Send3"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="Send2"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="Send1"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="Recieving"  />
+    <postMsg mid="1121028" type="Warning" dynamic="1" navigation="0" arg0="Sending"  />
+Writing the design to project_impl1.ngo...
 
-# Thu Jun 01 16:06:40 2017
+Total CPU Time: 0 secs  
 
-#Implementation: impl1
-
-Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
-@N|Running in 64-bit mode
-Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-
-Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
-@N|Running in 64-bit mode
-Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-
-@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v" (library work)
-@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v" (library work)
-@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
-@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
-@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
-@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Recieve1.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send0.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send1.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_In.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_Out.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Splitter.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_0.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_1.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_N64.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv" (library work)
-@I::"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv" (library work)
-Verilog syntax check successful!
-Options changed - recompiling
-Selecting top level module top
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":1:7:1:19|Synthesizing module controller_SM in library work.
-
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal SNES1[11:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal SNES0[11:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal NES1[11:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|Latch generated from always block for signal NES0[11:0]; possible missing assignment in an if or case statement.
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Controller_SM.sv":32:3:32:6|always_comb does not infer combinatorial logic
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":1:7:1:21|Synthesizing module NES_para_to_ser in library work.
-
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":19:1:19:9|Pruning unused register data_q[7:0]. Make sure that there are no unused intermediate registers.
-@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\NES_parallel_to_serial.sv":33:1:33:9|Register bit data is always 0.
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":1:7:1:22|Synthesizing module SNES_para_to_ser in library work.
-
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":40:1:40:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":22:1:22:9|Pruning unused register data_q[11:0]. Make sure that there are no unused intermediate registers.
-@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Shift_register_SNEs.sv":40:1:40:9|Register bit data is always 0.
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Decode_SNES.sv":1:7:1:16|Synthesizing module decoder3_8 in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Button_board_reciever.sv":1:7:1:27|Synthesizing module button_board_reciever in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":1:7:1:21|Synthesizing module remote_reciever in library work.
-
-@W: CG146 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Remote_reciever.sv":1:7:1:21|Creating black box for empty module remote_reciever
-
-@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":69:7:69:16|Synthesizing module clock_slow in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Splitter.sv":1:7:1:14|Synthesizing module Splitter in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_0.sv":1:7:1:26|Synthesizing module State_Machine_Send_0 in library work.
-
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_0.sv":26:2:26:3|Latch generated from always block for signal Data_Out; possible missing assignment in an if or case statement.
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_0.sv":26:2:26:3|always_comb does not infer combinatorial logic
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send0.sv":1:7:1:11|Synthesizing module Send0 in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_1.sv":1:7:1:26|Synthesizing module State_Machine_Send_1 in library work.
-
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_1.sv":26:2:26:3|Latch generated from always block for signal Data_Out; possible missing assignment in an if or case statement.
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_Send_1.sv":26:2:26:3|always_comb does not infer combinatorial logic
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send1.sv":1:7:1:11|Synthesizing module Send1 in library work.
-
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send1.sv":19:2:19:3|Latch generated from always block for signal ENABLE_STATE; possible missing assignment in an if or case statement.
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Send1.sv":19:2:19:3|always_comb does not infer combinatorial logic
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_Out.sv":1:7:1:20|Synthesizing module Sig_Decode_Out in library work.
-
-@W: CG133 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_Out.sv":14:7:14:17|Object One_Bot_Out is declared but not assigned. Either assign a value or remove the declaration.
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv":1:7:1:40|Synthesizing module State_Machine_N64_Send_And_Recieve in library work.
-
-@W: CL118 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv":56:3:56:6|Latch generated from always block for signal OutputData[2:0]; possible missing assignment in an if or case statement.
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv":56:3:56:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv":56:3:56:6|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_Machine_N64_Send_And_Recieve.sv":56:3:56:6|always_comb does not infer combinatorial logic
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\State_N64.sv":1:7:1:15|Synthesizing module State_N64 in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv":1:7:1:23|Synthesizing module Four_Bit_Register in library work.
-
-@W: CL265 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv":9:1:9:9|Removing unused bit 3 of DataStored[3:0]. Either assign all bits or reduce the width of the signal.
-@W: CL265 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv":9:1:9:9|Removing unused bit 0 of DataStored[3:0]. Either assign all bits or reduce the width of the signal.
-@N: CL189 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv":13:1:13:9|Register bit DataStored[0] is always 0.
-@W: CL260 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Four_Bit_Register.sv":13:1:13:9|Pruning register bit 0 of DataStored[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_In.sv":1:7:1:19|Synthesizing module Sig_Decode_In in library work.
-
-@W: CG133 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_In.sv":7:14:7:23|Object Enable_Out is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_resources\Sig_Decode_In.sv":8:14:8:20|Object clk_Out is declared but not assigned. Either assign a value or remove the declaration.
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":23:7:23:26|Synthesizing module N64_button_converter in library work.
-
-@W: CS101 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":31:19:31:27|Index 15 is out of range for variable button_in
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":48:7:48:28|Synthesizing module N64_serial_to_parallel in library work.
-
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":71:1:71:9|Pruning unused register state. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":71:1:71:9|Pruning unused register count[5:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":61:1:61:9|Pruning unused register count[5:0]. Make sure that there are no unused intermediate registers.
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":1:7:1:23|Synthesizing module N64_in_to_buttons in library work.
-
-@W: CS263 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_serial_to_parallel.sv":15:13:15:16|Port-width mismatch for port data. The port definition is 1 bits, but the actual port connection bit width is 2. Adjust either the definition or the instantiation of this port.
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\N64_reciever.sv":1:7:1:18|Synthesizing module N64_reciever in library work.
-
-@N: CG364 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":1:7:1:9|Synthesizing module top in library work.
-
-@E: CG749 :"C:\Users\Connor\Documents\ECE_271_Project\impl1\sources\Big_boy.sv":3:13:3:15|An inout port (N64) must be a net type
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Jun 01 16:06:40 2017
-
-###########################################################]
-@END
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Jun 01 16:06:40 2017
-
-###########################################################]
+Total REAL Time: 0 secs  
 
 
-Synthesis exit by 9.
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.9_x64/ispfpga/xo2c00/data"  -p "C:/Users/Connor/Documents/ECE_271_Project/impl1" -p "C:/Users/Connor/Documents/ECE_271_Project"  "project_impl1.ngo" "project_impl1.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'project_impl1.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="N64_rec/osc_int_SEDSTDBY" arg2="N64_rec/osc_int_SEDSTDBY"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="button_board[0]" arg2="button_board[0]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="button_board[1]" arg2="button_board[1]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="button_board[2]" arg2="button_board[2]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="button_board[3]" arg2="button_board[3]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="button_board[4]" arg2="button_board[4]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="button_board[5]" arg2="button_board[5]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="button_board[6]" arg2="button_board[6]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="button_board[7]" arg2="button_board[7]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="remote" arg2="remote"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="NES_Clock" arg2="NES_Clock"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="NES_Latch" arg2="NES_Latch"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="SNES_Clock" arg2="SNES_Clock"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="SNES_Latch" arg2="SNES_Latch"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="game_select[0]" arg2="game_select[0]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="game_select[1]" arg2="game_select[1]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="game_select[2]" arg2="game_select[2]"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="game_select[3]" arg2="game_select[3]"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="18"  />
+
+Design Results:
+     77 blocks expanded
+Complete the first expansion.
+Writing 'project_impl1.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
