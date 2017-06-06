@@ -16,7 +16,7 @@ def signal_gen(val, idx, gap):
     if (val == 1):
         string = ', 0 ' + str(gap * idx) + ', 1 ' + str(gap * (idx + 1)) + ', 1 ' + str(gap * (idx + 2)) + ', 1 ' + str(gap * (idx + 3))
     elif (val == 0):
-        string = ', 0 ' + str(gap * idx) + ', 1 ' + str(gap * (idx + 1)) + ', 1 ' + str(gap * (idx + 2)) + ', 1 ' + str(gap * (idx + 3))
+        string = ', 0 ' + str(gap * idx) + ', 0 ' + str(gap * (idx + 1)) + ', 0 ' + str(gap * (idx + 2)) + ', 1 ' + str(gap * (idx + 3))
     return string
 
 def sort_spec():
