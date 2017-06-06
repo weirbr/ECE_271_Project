@@ -17,7 +17,7 @@ module NES_para_to_ser(
 	logic [7:0] data_q;
 		
 	always_ff @ (posedge latch, negedge reset) begin
-		if (!reset) data_q = 0b11111111;
+		if (!reset) data_q = 8'b11111111;
 		else begin
 			data_q[0] = AIn;
 			data_q[1] = BIn;

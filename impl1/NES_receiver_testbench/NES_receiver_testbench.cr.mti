@@ -1,1 +1,8 @@
+C:/Users/Connor/Documents/ECE_271_Project/impl1/NES_receiver_testbench/NES_parallel_to_serial.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/NES_receiver_testbench/NES_parallel_to_serial.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module NES_para_to_ser
 
+Top level modules:
+	NES_para_to_ser
+
+} {} {}}

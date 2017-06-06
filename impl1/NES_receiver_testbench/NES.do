@@ -13,16 +13,15 @@ add wave sim:/NES_para_to_ser/right
 add wave sim:/NES_para_to_ser/reset
 add wave sim:/NES_para_to_ser/data_q
 
-force sim:/NES_para_to_ser/AIn 0 0, 1 5000ps
-force sim:/NES_para_to_ser/BIn 0 0ps
-force sim:/NES_para_to_ser/sel 0 0ps
-force sim:/NES_para_to_ser/start 0 0ps
-force sim:/NES_para_to_ser/up 0 0ps
-force sim:/NES_para_to_ser/down 0 0ps
-force sim:/NES_para_to_ser/left 0 0ps
-force sim:/NES_para_to_ser/right 0 0ps
-force sim:/NES_para_to_ser/reset 0 0ps
-force sim:/NES_para_to_ser/data_q 0 0ps
+force sim:/NES_para_to_ser/AIn 1 0, 1 5000ps
+force sim:/NES_para_to_ser/BIn 1 0ps
+force sim:/NES_para_to_ser/sel 1 0ps
+force sim:/NES_para_to_ser/start 1 0ps
+force sim:/NES_para_to_ser/up 1 0ps
+force sim:/NES_para_to_ser/down 1 0ps
+force sim:/NES_para_to_ser/left 1 0ps
+force sim:/NES_para_to_ser/right 1 0ps
+force sim:/NES_para_to_ser/reset 1 0ps
 
 force sim:/NES_para_to_ser/clk 1 0, 0 {500 ps} -r 1000ps
 

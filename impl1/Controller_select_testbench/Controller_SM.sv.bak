@@ -13,7 +13,7 @@ module controller_SM (
 		input logic reset_in);
 		
 		
-		parameter off = 12'b111111111111;
+		parameter off = 12'b11111111;
 		
 		parameter S0 = 4'b0000;
 		parameter S1 = 4'b0001;

@@ -1,0 +1,35 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Connor/Documents/ECE_271_Project/impl1/NES_receiver_testbench
+vcontroller_SM
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1496719902
+!i10b 1
+!s100 zBF>FOinSGfeCF]jKZ8R@1
+I^GZJCPZ4i[d]:OMCncC<_1
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 Controller_SM_sv_unit
+S1
+dC:/Users/Connor/Documents/ECE_271_Project/impl1/Controller_select_testbench
+w1496719887
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/Controller_select_testbench/Controller_SM.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/Controller_select_testbench/Controller_SM.sv
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1496719902.000000
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/Controller_select_testbench/Controller_SM.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/Connor/Documents/ECE_271_Project/impl1/Controller_select_testbench/Controller_SM.sv|
+!i113 1
+o-work work -sv
+tCvgOpt 0
+ncontroller_@s@m
