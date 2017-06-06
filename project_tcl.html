@@ -80,6 +80,87 @@ prj_project close
 
 
 
+<A name="pn170603182233"></A><B><U><big>pn170603182233</big></U></B>
+#Start recording tcl command: 5/28/2017 14:19:28
+#Project Location: C:/Users/Connor/Documents/ECE_271_Project; Project name: project
+prj_project open "C:/Users/Connor/Documents/ECE_271_Project/project.ldf"
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Controller_SM.sv"
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Button_board_reciever.sv"
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_reciever.sv"
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Remote_reciever.sv"
+prj_src exclude "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Controller_SM.sv"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_run Synthesis -impl impl1
+prj_src enable "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Controller_SM.sv"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/N64_serial_to_parallel.sv"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_serial_to_parallel.sv"
+prj_src remove "C:/Users/Connor/Documents/ECE_271_Project/N64_serial_to_parallel.sv"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Big_boy.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Button_board_reciever.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Controller_SM.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Decode_SNES.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_reciever.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_serial_to_parallel.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/NES_parallel_to_serial.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Recieve1.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Remote_reciever.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Send0.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Send1.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Shift_register_SNEs.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Sig_Decode_In.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Sig_Decode_Out.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Splitter.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/State_Machine_N64_Send_And_Recieve.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/State_Machine_Send_0.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/State_Machine_Send_1.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/State_N64.sv"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_run Map -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_src remove "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Recieve1.sv"
+prj_src remove "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Send0.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Send1.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Sig_Decode_In.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Sig_Decode_Out.sv"
+prj_src remove "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/State_Machine_N64_Send_And_Recieve.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/State_Machine_Send_0.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/State_Machine_Send_1.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/State_N64.sv"
+prj_src remove "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Splitter.sv"
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/Recieve1.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/Send0.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/Send1.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/Sig_Decode_In.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/Sig_Decode_Out.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/Splitter.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/State_Machine_N64_Send_And_Recieve.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/State_Machine_Send_0.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/State_Machine_Send_1.sv" "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/State_N64.sv"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_run Export -impl impl1
+prj_src add "C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/N64_resources/Four_Bit_Register.sv"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_project save
+prj_project close
+#Stop recording: 6/3/2017 18:22:33
+
+
+
 <BR>
 <BR>
 <BR>
