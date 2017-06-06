@@ -1,0 +1,95 @@
+C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_reciever.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_reciever.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module N64_reciever
+-- Compiling module clock_slow
+
+Top level modules:
+	N64_reciever
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_serial_to_parallel.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_serial_to_parallel.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module N64_in_to_buttons
+-- Compiling module N64_button_converter
+-- Compiling module N64_serial_to_parallel
+
+Top level modules:
+	N64_in_to_buttons
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_1.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module State_Machine_Send_1
+
+Top level modules:
+	State_Machine_Send_1
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send1.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Send1
+
+Top level modules:
+	Send1
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_In.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_In.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Sig_Decode_In
+
+Top level modules:
+	Sig_Decode_In
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Recieve1.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Recieve1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Recieve1
+
+Top level modules:
+	Recieve1
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_0.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_0.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module State_Machine_Send_0
+
+Top level modules:
+	State_Machine_Send_0
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_Out.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_Out.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Sig_Decode_Out
+
+Top level modules:
+	Sig_Decode_Out
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Four_Bit_Register.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Four_Bit_Register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Four_Bit_Register
+
+Top level modules:
+	Four_Bit_Register
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Splitter.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Splitter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Splitter
+
+Top level modules:
+	Splitter
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_N64.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_N64.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module State_N64
+
+Top level modules:
+	State_N64
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_N64_Send_And_Recieve.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_N64_Send_And_Recieve.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module State_Machine_N64_Send_And_Recieve
+
+Top level modules:
+	State_Machine_N64_Send_And_Recieve
+
+} {} {}} C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send0.sv {1 {vlog -work work -sv -stats=none C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send0.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Send0
+
+Top level modules:
+	Send0
+
+} {} {}}

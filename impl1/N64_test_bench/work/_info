@@ -1,0 +1,433 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Connor/Documents/ECE_271_Project/impl1/test_bench
+vclock_slow
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1496375060
+!i10b 1
+!s100 =]:@ahJE6BbE5YA=BAY<Y3
+IgMH`=>1f4f?W4<f9eG[8j1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 N64_reciever_sv_unit
+S1
+Z4 dC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench
+Z5 w1496374810
+Z6 8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_reciever.sv
+Z7 FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_reciever.sv
+L0 63
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1496375060.000000
+Z10 !s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_reciever.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_reciever.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+vFour_Bit_Register
+R0
+Z14 !s110 1496375058
+!i10b 1
+!s100 `hm=4JZ_gSh2?BOlW@0D`2
+Ic;H=BGm7M[I1XfKEGajOP2
+R2
+!s105 Four_Bit_Register_sv_unit
+S1
+R4
+w1496358362
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Four_Bit_Register.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Four_Bit_Register.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z15 !s108 1496375058.000000
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Four_Bit_Register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Four_Bit_Register.sv|
+!i113 1
+R12
+R13
+n@four_@bit_@register
+vN64_button_converter
+R0
+Z16 !s110 1496375178
+!i10b 1
+!s100 nONd2B5E0>EI>3Q9:P@f^0
+IFG`hbbnl;Lll;0m9E`=^f1
+R2
+Z17 !s105 N64_serial_to_parallel_sv_unit
+S1
+R4
+Z18 w1496375166
+Z19 8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_serial_to_parallel.sv
+Z20 FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_serial_to_parallel.sv
+L0 23
+R8
+r1
+!s85 0
+31
+Z21 !s108 1496375178.000000
+Z22 !s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_serial_to_parallel.sv|
+Z23 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/N64_serial_to_parallel.sv|
+!i113 1
+R12
+R13
+n@n64_button_converter
+vN64_in_to_buttons
+R0
+R16
+!i10b 1
+!s100 <:Og[bLk9l04lnQLBYLJK2
+IfN>0T8fQPl=f8P_SSJY;00
+R2
+R17
+S1
+R4
+R18
+R19
+R20
+L0 1
+R8
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R12
+R13
+n@n64_in_to_buttons
+vN64_reciever
+R0
+R1
+!i10b 1
+!s100 ePUH]@KaE5<WH6AEYFJdB2
+I6I:XcDO;I`6S=NS>i9]La2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@n64_reciever
+vN64_serial_to_parallel
+R0
+R16
+!i10b 1
+!s100 SzkBI8jfjXT40g^2FN4zz1
+IdUe=6VfN6aZ^15P3bZn9N3
+R2
+R17
+S1
+R4
+R18
+R19
+R20
+L0 48
+R8
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R12
+R13
+n@n64_serial_to_parallel
+vRecieve1
+R0
+R14
+!i10b 1
+!s100 =ViQ_cbD9ZFJIiJam[A==1
+Ii6K7ge_lf>JCfFA:E0JN01
+R2
+!s105 Recieve1_sv_unit
+S1
+R4
+w1496358015
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Recieve1.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Recieve1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Recieve1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Recieve1.sv|
+!i113 1
+R12
+R13
+n@recieve1
+vremote_reciever
+R0
+!s110 1496374284
+!i10b 1
+!s100 cO:zFOn7292AOgonke0L^1
+InShBTH3=ojDcV?2lha0lH1
+R2
+!s105 Remote_reciever_sv_unit
+S1
+R4
+w1496014410
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Remote_reciever.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Remote_reciever.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1496374284.000000
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Remote_reciever.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/sources/Remote_reciever.sv|
+!i113 1
+R12
+R13
+vSend0
+R0
+Z24 !s110 1496375059
+!i10b 1
+!s100 YORB39RGj:;h0[3YPHG333
+I^TkWKoBgPKQl5QAnjSKWg0
+R2
+!s105 Send0_sv_unit
+S1
+R4
+w1496352482
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send0.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send0.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z25 !s108 1496375059.000000
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send0.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send0.sv|
+!i113 1
+R12
+R13
+n@send0
+vSend1
+R0
+R24
+!i10b 1
+!s100 zlhaFOk];da4<F=LnMMAA3
+I;kEf5>OC2gQOQW3D2=LFE0
+R2
+!s105 Send1_sv_unit
+S1
+R4
+w1496352483
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send1.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Send1.sv|
+!i113 1
+R12
+R13
+n@send1
+vSig_Decode_In
+R0
+R24
+!i10b 1
+!s100 V:I8=zgfAk`2QHlNbL2A?1
+Ic;Wa`RZOTP?U2MGM_F7:h0
+R2
+!s105 Sig_Decode_In_sv_unit
+S1
+R4
+w1496374867
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_In.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_In.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_In.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_In.sv|
+!i113 1
+R12
+R13
+n@sig_@decode_@in
+vSig_Decode_Out
+R0
+R24
+!i10b 1
+!s100 `zo0cP:;^b=CB8FeZ_EV<2
+IFz`T88l6GiCocSgII[TMY1
+R2
+!s105 Sig_Decode_Out_sv_unit
+S1
+R4
+w1496352486
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_Out.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_Out.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_Out.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Sig_Decode_Out.sv|
+!i113 1
+R12
+R13
+n@sig_@decode_@out
+vSplitter
+R0
+R24
+!i10b 1
+!s100 `8O`^SmcXQZ]?GBY<7_3F2
+IWEHcAjC6J;939f;?RZ_Dd0
+R2
+!s105 Splitter_sv_unit
+S1
+R4
+w1496352487
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Splitter.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Splitter.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Splitter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/Splitter.sv|
+!i113 1
+R12
+R13
+n@splitter
+vState_Machine_N64_Send_And_Recieve
+R0
+R24
+!i10b 1
+!s100 2;zA>0=;cFS0D2f>cc6HK0
+IWAFUFE0VJM^a`[od<oVNj2
+R2
+!s105 State_Machine_N64_Send_And_Recieve_sv_unit
+S1
+R4
+w1496352488
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_N64_Send_And_Recieve.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_N64_Send_And_Recieve.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_N64_Send_And_Recieve.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_N64_Send_And_Recieve.sv|
+!i113 1
+R12
+R13
+n@state_@machine_@n64_@send_@and_@recieve
+vState_Machine_Send_0
+R0
+R1
+!i10b 1
+!s100 l9Bo8Vo?zQ5>4@:GfHoDm3
+I];==X=b>_W0ezc]LY9dLR2
+R2
+!s105 State_Machine_Send_0_sv_unit
+S1
+R4
+w1496352489
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_0.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_0.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_0.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_0.sv|
+!i113 1
+R12
+R13
+n@state_@machine_@send_0
+vState_Machine_Send_1
+R0
+R1
+!i10b 1
+!s100 8W[33AGAhA^?iQOGoTCnM3
+I[M;E_@PzonP5?P79KY9O?0
+R2
+!s105 State_Machine_Send_1_sv_unit
+S1
+R4
+w1496352491
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_1.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_Machine_Send_1.sv|
+!i113 1
+R12
+R13
+n@state_@machine_@send_1
+vState_N64
+R0
+R14
+!i10b 1
+!s100 R^D0]?<Hn;KGi86FlNjoF1
+I7>_z0Fa^SgYUzBX50TT6K3
+R2
+!s105 State_N64_sv_unit
+S1
+R4
+w1496352492
+8C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_N64.sv
+FC:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_N64.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_N64.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Connor/Documents/ECE_271_Project/impl1/N64_test_bench/State_N64.sv|
+!i113 1
+R12
+R13
+n@state_@n64

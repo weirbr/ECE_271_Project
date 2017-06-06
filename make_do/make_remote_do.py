@@ -4,6 +4,9 @@ import math
 
 WAVEFORM = open("./resources/tek0001CH1.csv", "r")
 GENERATED = open("./resources/remote_wave.do", "w")
+NEW_WAVEFORM = open("./resources/new_waveform.csv", "w")
+
+only_wave_form = True
 
 def parse_line_for_val (line):
     found_flag = False
@@ -44,9 +47,11 @@ def sort_wave_form():
         if wave_start_flag:
             val_cur = parse_line_for_val(line)
             diff = val_cur - val_prev
-            if valid_idx == 500 or abs(diff) > 0.5:
-                turn_into_force_section(parse_line_for_time(line), val_cur)
-                valid_idx = 0
+            if valid_idx == 10 or abs(diff) > 0.5:
+                NEW_WAVEFORM.write(line)
+                if not only_wave_form:
+                    turn_into_force_section(parse_line_for_time(line), val_cur)
+                    valid_idx = 0
             val_prev = val_cur
             valid_idx += 1
         if line == "TIME,CH1\n":
@@ -58,3 +63,7 @@ if __name__ == "__main__":
     GENERATED.write("add wave -posistion end sim:/N64_reciever/remote_in\n")
     sort_wave_form()
     GENERATED.write("\nrun 8929000")
+	
+NEW_WAVEFORM.close()
+GENERATED.close()
+WAVEFORM.close()
